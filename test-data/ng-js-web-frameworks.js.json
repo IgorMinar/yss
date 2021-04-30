@@ -1,0 +1,8666 @@
+{
+  "nodes": [
+    {
+      "id": "getClosureSafeProperty",
+      "name": "getClosureSafeProperty",
+      "val": 251,
+      "entryPoint": false
+    },
+    {
+      "id": "stringify",
+      "name": "stringify",
+      "val": 479,
+      "entryPoint": false
+    },
+    {
+      "id": "concatStringsWithSpace",
+      "name": "concatStringsWithSpace",
+      "val": 215,
+      "entryPoint": false
+    },
+    {
+      "id": "__forward_ref__",
+      "name": "__forward_ref__",
+      "val": 95,
+      "entryPoint": false
+    },
+    {
+      "id": "forwardRef",
+      "name": "forwardRef",
+      "val": 203,
+      "entryPoint": false
+    },
+    {
+      "id": "resolveForwardRef",
+      "name": "resolveForwardRef",
+      "val": 413,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdefineInjectable",
+      "name": "ɵɵdefineInjectable",
+      "val": 165,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdefineInjector",
+      "name": "ɵɵdefineInjector",
+      "val": 161,
+      "entryPoint": false
+    },
+    {
+      "id": "getInjectableDef",
+      "name": "getInjectableDef",
+      "val": 127,
+      "entryPoint": false
+    },
+    {
+      "id": "getOwnDefinition",
+      "name": "getOwnDefinition",
+      "val": 101,
+      "entryPoint": false
+    },
+    {
+      "id": "getInjectorDef",
+      "name": "getInjectorDef",
+      "val": 160,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_PROV_DEF",
+      "name": "NG_PROV_DEF",
+      "val": 85,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_INJ_DEF",
+      "name": "NG_INJ_DEF",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_INJECTABLE_DEF",
+      "name": "NG_INJECTABLE_DEF",
+      "val": 97,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_INJECTOR_DEF",
+      "name": "NG_INJECTOR_DEF",
+      "val": 93,
+      "entryPoint": false
+    },
+    {
+      "id": "InjectFlags",
+      "name": "InjectFlags",
+      "val": 365,
+      "entryPoint": false
+    },
+    {
+      "id": "_injectImplementation",
+      "name": "_injectImplementation",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "setInjectImplementation",
+      "name": "setInjectImplementation",
+      "val": 136,
+      "entryPoint": false
+    },
+    {
+      "id": "injectRootLimpMode",
+      "name": "injectRootLimpMode",
+      "val": 463,
+      "entryPoint": false
+    },
+    {
+      "id": "noSideEffects",
+      "name": "noSideEffects",
+      "val": 77,
+      "entryPoint": false
+    },
+    {
+      "id": "ChangeDetectionStrategy",
+      "name": "ChangeDetectionStrategy",
+      "val": 293,
+      "entryPoint": false
+    },
+    {
+      "id": "ViewEncapsulation",
+      "name": "ViewEncapsulation",
+      "val": 323,
+      "entryPoint": false
+    },
+    {
+      "id": "__globalThis",
+      "name": "__globalThis",
+      "val": 68,
+      "entryPoint": false
+    },
+    {
+      "id": "__window",
+      "name": "__window",
+      "val": 52,
+      "entryPoint": false
+    },
+    {
+      "id": "__self",
+      "name": "__self",
+      "val": 142,
+      "entryPoint": false
+    },
+    {
+      "id": "__global",
+      "name": "__global",
+      "val": 52,
+      "entryPoint": false
+    },
+    {
+      "id": "_global",
+      "name": "_global",
+      "val": 59,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_OBJ",
+      "name": "EMPTY_OBJ",
+      "val": 17,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_ARRAY",
+      "name": "EMPTY_ARRAY",
+      "val": 19,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_COMP_DEF",
+      "name": "NG_COMP_DEF",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_DIR_DEF",
+      "name": "NG_DIR_DEF",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_PIPE_DEF",
+      "name": "NG_PIPE_DEF",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_MOD_DEF",
+      "name": "NG_MOD_DEF",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_LOC_ID_DEF",
+      "name": "NG_LOC_ID_DEF",
+      "val": 82,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_FACTORY_DEF",
+      "name": "NG_FACTORY_DEF",
+      "val": 83,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_ELEMENT_ID",
+      "name": "NG_ELEMENT_ID",
+      "val": 95,
+      "entryPoint": false
+    },
+    {
+      "id": "_renderCompCount",
+      "name": "_renderCompCount",
+      "val": 25,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdefineComponent",
+      "name": "ɵɵdefineComponent",
+      "val": 2295,
+      "entryPoint": false
+    },
+    {
+      "id": "extractDirectiveDef",
+      "name": "extractDirectiveDef",
+      "val": 159,
+      "entryPoint": false
+    },
+    {
+      "id": "extractPipeDef",
+      "name": "extractPipeDef",
+      "val": 112,
+      "entryPoint": false
+    },
+    {
+      "id": "autoRegisterModuleById",
+      "name": "autoRegisterModuleById",
+      "val": 34,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdefineNgModule",
+      "name": "ɵɵdefineNgModule",
+      "val": 482,
+      "entryPoint": false
+    },
+    {
+      "id": "invertObject",
+      "name": "invertObject",
+      "val": 488,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdefineDirective",
+      "name": "ɵɵdefineDirective",
+      "val": 44,
+      "entryPoint": false
+    },
+    {
+      "id": "getComponentDef",
+      "name": "getComponentDef",
+      "val": 71,
+      "entryPoint": false
+    },
+    {
+      "id": "getNgModuleDef",
+      "name": "getNgModuleDef",
+      "val": 242,
+      "entryPoint": false
+    },
+    {
+      "id": "isLView",
+      "name": "isLView",
+      "val": 91,
+      "entryPoint": false
+    },
+    {
+      "id": "isLContainer",
+      "name": "isLContainer",
+      "val": 83,
+      "entryPoint": false
+    },
+    {
+      "id": "isContentQueryHost",
+      "name": "isContentQueryHost",
+      "val": 72,
+      "entryPoint": false
+    },
+    {
+      "id": "isComponentHost",
+      "name": "isComponentHost",
+      "val": 69,
+      "entryPoint": false
+    },
+    {
+      "id": "isDirectiveHost",
+      "name": "isDirectiveHost",
+      "val": 69,
+      "entryPoint": false
+    },
+    {
+      "id": "isComponentDef",
+      "name": "isComponentDef",
+      "val": 65,
+      "entryPoint": false
+    },
+    {
+      "id": "getFactoryDef",
+      "name": "getFactoryDef",
+      "val": 125,
+      "entryPoint": false
+    },
+    {
+      "id": "RuntimeError",
+      "name": "RuntimeError",
+      "val": 508,
+      "entryPoint": false
+    },
+    {
+      "id": "renderStringify",
+      "name": "renderStringify",
+      "val": 116,
+      "entryPoint": false
+    },
+    {
+      "id": "stringifyForError",
+      "name": "stringifyForError",
+      "val": 271,
+      "entryPoint": false
+    },
+    {
+      "id": "throwProviderNotFoundError",
+      "name": "throwProviderNotFoundError",
+      "val": 247,
+      "entryPoint": false
+    },
+    {
+      "id": "SimpleChange",
+      "name": "SimpleChange",
+      "val": 262,
+      "entryPoint": false
+    },
+    {
+      "id": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "name": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "val": 471,
+      "entryPoint": false
+    },
+    {
+      "id": "ngOnChangesSetInput",
+      "name": "ngOnChangesSetInput",
+      "val": 998,
+      "entryPoint": false
+    },
+    {
+      "id": "getSimpleChangesStore",
+      "name": "getSimpleChangesStore",
+      "val": 92,
+      "entryPoint": false
+    },
+    {
+      "id": "DOCUMENT",
+      "name": "DOCUMENT",
+      "val": 22,
+      "entryPoint": false
+    },
+    {
+      "id": "isProceduralRenderer",
+      "name": "isProceduralRenderer",
+      "val": 73,
+      "entryPoint": false
+    },
+    {
+      "id": "domRendererFactory3",
+      "name": "domRendererFactory3",
+      "val": 170,
+      "entryPoint": false
+    },
+    {
+      "id": "unwrapRNode",
+      "name": "unwrapRNode",
+      "val": 99,
+      "entryPoint": false
+    },
+    {
+      "id": "getNativeByIndex",
+      "name": "getNativeByIndex",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "getNativeByTNode",
+      "name": "getNativeByTNode",
+      "val": 86,
+      "entryPoint": false
+    },
+    {
+      "id": "getTNode",
+      "name": "getTNode",
+      "val": 64,
+      "entryPoint": false
+    },
+    {
+      "id": "getComponentLViewByIndex",
+      "name": "getComponentLViewByIndex",
+      "val": 156,
+      "entryPoint": false
+    },
+    {
+      "id": "readPatchedLView",
+      "name": "readPatchedLView",
+      "val": 200,
+      "entryPoint": false
+    },
+    {
+      "id": "viewAttachedToChangeDetector",
+      "name": "viewAttachedToChangeDetector",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "getConstant",
+      "name": "getConstant",
+      "val": 87,
+      "entryPoint": false
+    },
+    {
+      "id": "resetPreOrderHookFlags",
+      "name": "resetPreOrderHookFlags",
+      "val": 60,
+      "entryPoint": false
+    },
+    {
+      "id": "updateTransplantedViewCount",
+      "name": "updateTransplantedViewCount",
+      "val": 368,
+      "entryPoint": false
+    },
+    {
+      "id": "instructionState",
+      "name": "instructionState",
+      "val": 112,
+      "entryPoint": false
+    },
+    {
+      "id": "getLView",
+      "name": "getLView",
+      "val": 64,
+      "entryPoint": false
+    },
+    {
+      "id": "getTView",
+      "name": "getTView",
+      "val": 64,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵrestoreView",
+      "name": "ɵɵrestoreView",
+      "val": 98,
+      "entryPoint": false
+    },
+    {
+      "id": "getCurrentTNode",
+      "name": "getCurrentTNode",
+      "val": 205,
+      "entryPoint": false
+    },
+    {
+      "id": "getCurrentTNodePlaceholderOk",
+      "name": "getCurrentTNodePlaceholderOk",
+      "val": 91,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentTNode",
+      "name": "setCurrentTNode",
+      "val": 151,
+      "entryPoint": false
+    },
+    {
+      "id": "isCurrentTNodeParent",
+      "name": "isCurrentTNodeParent",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "isInCheckNoChangesMode",
+      "name": "isInCheckNoChangesMode",
+      "val": 88,
+      "entryPoint": false
+    },
+    {
+      "id": "setIsInCheckNoChangesMode",
+      "name": "setIsInCheckNoChangesMode",
+      "val": 95,
+      "entryPoint": false
+    },
+    {
+      "id": "nextBindingIndex",
+      "name": "nextBindingIndex",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "setBindingRootForHostBindings",
+      "name": "setBindingRootForHostBindings",
+      "val": 249,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentDirectiveIndex",
+      "name": "setCurrentDirectiveIndex",
+      "val": 134,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentQueryIndex",
+      "name": "setCurrentQueryIndex",
+      "val": 94,
+      "entryPoint": false
+    },
+    {
+      "id": "getDeclarationTNode",
+      "name": "getDeclarationTNode",
+      "val": 148,
+      "entryPoint": false
+    },
+    {
+      "id": "enterDI",
+      "name": "enterDI",
+      "val": 674,
+      "entryPoint": false
+    },
+    {
+      "id": "enterView",
+      "name": "enterView",
+      "val": 370,
+      "entryPoint": false
+    },
+    {
+      "id": "allocLFrame",
+      "name": "allocLFrame",
+      "val": 222,
+      "entryPoint": false
+    },
+    {
+      "id": "createLFrame",
+      "name": "createLFrame",
+      "val": 454,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveViewLight",
+      "name": "leaveViewLight",
+      "val": 222,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveDI",
+      "name": "leaveDI",
+      "val": 31,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveView",
+      "name": "leaveView",
+      "val": 432,
+      "entryPoint": false
+    },
+    {
+      "id": "getSelectedIndex",
+      "name": "getSelectedIndex",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "setSelectedIndex",
+      "name": "setSelectedIndex",
+      "val": 86,
+      "entryPoint": false
+    },
+    {
+      "id": "registerPostOrderHooks",
+      "name": "registerPostOrderHooks",
+      "val": 1184,
+      "entryPoint": false
+    },
+    {
+      "id": "executeCheckHooks",
+      "name": "executeCheckHooks",
+      "val": 97,
+      "entryPoint": false
+    },
+    {
+      "id": "executeInitAndCheckHooks",
+      "name": "executeInitAndCheckHooks",
+      "val": 155,
+      "entryPoint": false
+    },
+    {
+      "id": "incrementInitPhaseFlags",
+      "name": "incrementInitPhaseFlags",
+      "val": 163,
+      "entryPoint": false
+    },
+    {
+      "id": "callHooks",
+      "name": "callHooks",
+      "val": 730,
+      "entryPoint": false
+    },
+    {
+      "id": "callHook",
+      "name": "callHook",
+      "val": 364,
+      "entryPoint": false
+    },
+    {
+      "id": "NodeInjectorFactory",
+      "name": "NodeInjectorFactory",
+      "val": 255,
+      "entryPoint": false
+    },
+    {
+      "id": "setUpAttributes",
+      "name": "setUpAttributes",
+      "val": 838,
+      "entryPoint": false
+    },
+    {
+      "id": "isAnimationProp",
+      "name": "isAnimationProp",
+      "val": 71,
+      "entryPoint": false
+    },
+    {
+      "id": "mergeHostAttrs",
+      "name": "mergeHostAttrs",
+      "val": 544,
+      "entryPoint": false
+    },
+    {
+      "id": "mergeHostAttribute",
+      "name": "mergeHostAttribute",
+      "val": 1058,
+      "entryPoint": false
+    },
+    {
+      "id": "hasParentInjector",
+      "name": "hasParentInjector",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "getParentInjectorIndex",
+      "name": "getParentInjectorIndex",
+      "val": 85,
+      "entryPoint": false
+    },
+    {
+      "id": "getParentInjectorView",
+      "name": "getParentInjectorView",
+      "val": 212,
+      "entryPoint": false
+    },
+    {
+      "id": "includeViewProviders",
+      "name": "includeViewProviders",
+      "val": 30,
+      "entryPoint": false
+    },
+    {
+      "id": "setIncludeViewProviders",
+      "name": "setIncludeViewProviders",
+      "val": 128,
+      "entryPoint": false
+    },
+    {
+      "id": "nextNgElementId",
+      "name": "nextNgElementId",
+      "val": 24,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateNodeInjectorForNode",
+      "name": "getOrCreateNodeInjectorForNode",
+      "val": 884,
+      "entryPoint": false
+    },
+    {
+      "id": "insertBloom",
+      "name": "insertBloom",
+      "val": 82,
+      "entryPoint": false
+    },
+    {
+      "id": "getInjectorIndex",
+      "name": "getInjectorIndex",
+      "val": 239,
+      "entryPoint": false
+    },
+    {
+      "id": "getParentInjectorLocation",
+      "name": "getParentInjectorLocation",
+      "val": 689,
+      "entryPoint": false
+    },
+    {
+      "id": "diPublicInInjector",
+      "name": "diPublicInInjector",
+      "val": 944,
+      "entryPoint": false
+    },
+    {
+      "id": "notFoundValueOrThrow",
+      "name": "notFoundValueOrThrow",
+      "val": 174,
+      "entryPoint": false
+    },
+    {
+      "id": "lookupTokenUsingModuleInjector",
+      "name": "lookupTokenUsingModuleInjector",
+      "val": 695,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateInjectable",
+      "name": "getOrCreateInjectable",
+      "val": 2662,
+      "entryPoint": false
+    },
+    {
+      "id": "NOT_FOUND",
+      "name": "NOT_FOUND",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "createNodeInjector",
+      "name": "createNodeInjector",
+      "val": 92,
+      "entryPoint": false
+    },
+    {
+      "id": "searchTokensOnInjector",
+      "name": "searchTokensOnInjector",
+      "val": 1694,
+      "entryPoint": false
+    },
+    {
+      "id": "getNodeInjectable",
+      "name": "getNodeInjectable",
+      "val": 2821,
+      "entryPoint": false
+    },
+    {
+      "id": "bloomHasToken",
+      "name": "bloomHasToken",
+      "val": 650,
+      "entryPoint": false
+    },
+    {
+      "id": "shouldSearchParent",
+      "name": "shouldSearchParent",
+      "val": 145,
+      "entryPoint": false
+    },
+    {
+      "id": "NodeInjector",
+      "name": "NodeInjector",
+      "val": 235,
+      "entryPoint": false
+    },
+    {
+      "id": "makeParamDecorator",
+      "name": "makeParamDecorator",
+      "val": 1340,
+      "entryPoint": false
+    },
+    {
+      "id": "InjectionToken",
+      "name": "InjectionToken",
+      "val": 513,
+      "entryPoint": false
+    },
+    {
+      "id": "deepForEach",
+      "name": "deepForEach",
+      "val": 126,
+      "entryPoint": false
+    },
+    {
+      "id": "addToArray",
+      "name": "addToArray",
+      "val": 114,
+      "entryPoint": false
+    },
+    {
+      "id": "removeFromArray",
+      "name": "removeFromArray",
+      "val": 113,
+      "entryPoint": false
+    },
+    {
+      "id": "keyValueArraySet",
+      "name": "keyValueArraySet",
+      "val": 719,
+      "entryPoint": false
+    },
+    {
+      "id": "keyValueArrayGet",
+      "name": "keyValueArrayGet",
+      "val": 159,
+      "entryPoint": false
+    },
+    {
+      "id": "keyValueArrayIndexOf",
+      "name": "keyValueArrayIndexOf",
+      "val": 673,
+      "entryPoint": false
+    },
+    {
+      "id": "Inject",
+      "name": "Inject",
+      "val": 82,
+      "entryPoint": false
+    },
+    {
+      "id": "Optional",
+      "name": "Optional",
+      "val": 44,
+      "entryPoint": false
+    },
+    {
+      "id": "Self",
+      "name": "Self",
+      "val": 36,
+      "entryPoint": false
+    },
+    {
+      "id": "SkipSelf",
+      "name": "SkipSelf",
+      "val": 44,
+      "entryPoint": false
+    },
+    {
+      "id": "THROW_IF_NOT_FOUND",
+      "name": "THROW_IF_NOT_FOUND",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "NEW_LINE",
+      "name": "NEW_LINE",
+      "val": 20,
+      "entryPoint": false
+    },
+    {
+      "id": "USE_VALUE",
+      "name": "USE_VALUE",
+      "val": 103,
+      "entryPoint": false
+    },
+    {
+      "id": "_currentInjector",
+      "name": "_currentInjector",
+      "val": 30,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentInjector",
+      "name": "setCurrentInjector",
+      "val": 125,
+      "entryPoint": false
+    },
+    {
+      "id": "injectInjectorOnly",
+      "name": "injectInjectorOnly",
+      "val": 347,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵinject",
+      "name": "ɵɵinject",
+      "val": 147,
+      "entryPoint": false
+    },
+    {
+      "id": "injectArgs",
+      "name": "injectArgs",
+      "val": 977,
+      "entryPoint": false
+    },
+    {
+      "id": "getDebugContext",
+      "name": "getDebugContext",
+      "val": 68,
+      "entryPoint": false
+    },
+    {
+      "id": "getOriginalError",
+      "name": "getOriginalError",
+      "val": 69,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultErrorLogger",
+      "name": "defaultErrorLogger",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "ErrorHandler",
+      "name": "ErrorHandler",
+      "val": 844,
+      "entryPoint": false
+    },
+    {
+      "id": "attachPatchData",
+      "name": "attachPatchData",
+      "val": 74,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultScheduler",
+      "name": "defaultScheduler",
+      "val": 147,
+      "entryPoint": false
+    },
+    {
+      "id": "maybeUnwrapFn",
+      "name": "maybeUnwrapFn",
+      "val": 88,
+      "entryPoint": false
+    },
+    {
+      "id": "RendererStyleFlags2",
+      "name": "RendererStyleFlags2",
+      "val": 261,
+      "entryPoint": false
+    },
+    {
+      "id": "icuContainerIterate",
+      "name": "icuContainerIterate",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "getLViewParent",
+      "name": "getLViewParent",
+      "val": 114,
+      "entryPoint": false
+    },
+    {
+      "id": "getFirstLContainer",
+      "name": "getFirstLContainer",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "getNextLContainer",
+      "name": "getNextLContainer",
+      "val": 87,
+      "entryPoint": false
+    },
+    {
+      "id": "getNearestLContainer",
+      "name": "getNearestLContainer",
+      "val": 190,
+      "entryPoint": false
+    },
+    {
+      "id": "applyToElementOrContainer",
+      "name": "applyToElementOrContainer",
+      "val": 1776,
+      "entryPoint": false
+    },
+    {
+      "id": "createElementNode",
+      "name": "createElementNode",
+      "val": 253,
+      "entryPoint": false
+    },
+    {
+      "id": "detachMovedView",
+      "name": "detachMovedView",
+      "val": 340,
+      "entryPoint": false
+    },
+    {
+      "id": "detachView",
+      "name": "detachView",
+      "val": 925,
+      "entryPoint": false
+    },
+    {
+      "id": "destroyLView",
+      "name": "destroyLView",
+      "val": 1234,
+      "entryPoint": false
+    },
+    {
+      "id": "cleanUpView",
+      "name": "cleanUpView",
+      "val": 2454,
+      "entryPoint": false
+    },
+    {
+      "id": "nativeInsertBefore",
+      "name": "nativeInsertBefore",
+      "val": 227,
+      "entryPoint": false
+    },
+    {
+      "id": "nativeAppendChild",
+      "name": "nativeAppendChild",
+      "val": 156,
+      "entryPoint": false
+    },
+    {
+      "id": "nativeAppendOrInsertBefore",
+      "name": "nativeAppendOrInsertBefore",
+      "val": 227,
+      "entryPoint": false
+    },
+    {
+      "id": "nativeParentNode",
+      "name": "nativeParentNode",
+      "val": 133,
+      "entryPoint": false
+    },
+    {
+      "id": "appendChild",
+      "name": "appendChild",
+      "val": 1397,
+      "entryPoint": false
+    },
+    {
+      "id": "applyNodes",
+      "name": "applyNodes",
+      "val": 1228,
+      "entryPoint": false
+    },
+    {
+      "id": "applyView",
+      "name": "applyView",
+      "val": 172,
+      "entryPoint": false
+    },
+    {
+      "id": "applyProjectionRecursive",
+      "name": "applyProjectionRecursive",
+      "val": 666,
+      "entryPoint": false
+    },
+    {
+      "id": "writeDirectStyle",
+      "name": "writeDirectStyle",
+      "val": 190,
+      "entryPoint": false
+    },
+    {
+      "id": "writeDirectClass",
+      "name": "writeDirectClass",
+      "val": 261,
+      "entryPoint": false
+    },
+    {
+      "id": "classIndexOf",
+      "name": "classIndexOf",
+      "val": 508,
+      "entryPoint": false
+    },
+    {
+      "id": "isCssClassMatching",
+      "name": "isCssClassMatching",
+      "val": 511,
+      "entryPoint": false
+    },
+    {
+      "id": "isInlineTemplate",
+      "name": "isInlineTemplate",
+      "val": 97,
+      "entryPoint": false
+    },
+    {
+      "id": "hasTagAndTypeMatch",
+      "name": "hasTagAndTypeMatch",
+      "val": 173,
+      "entryPoint": false
+    },
+    {
+      "id": "isNodeMatchingSelector",
+      "name": "isNodeMatchingSelector",
+      "val": 2551,
+      "entryPoint": false
+    },
+    {
+      "id": "isPositive",
+      "name": "isPositive",
+      "val": 56,
+      "entryPoint": false
+    },
+    {
+      "id": "findAttrIndexInNode",
+      "name": "findAttrIndexInNode",
+      "val": 1069,
+      "entryPoint": false
+    },
+    {
+      "id": "isNodeMatchingSelectorList",
+      "name": "isNodeMatchingSelectorList",
+      "val": 218,
+      "entryPoint": false
+    },
+    {
+      "id": "maybeWrapInNotSelector",
+      "name": "maybeWrapInNotSelector",
+      "val": 123,
+      "entryPoint": false
+    },
+    {
+      "id": "stringifyCSSSelector",
+      "name": "stringifyCSSSelector",
+      "val": 977,
+      "entryPoint": false
+    },
+    {
+      "id": "NO_CHANGE",
+      "name": "NO_CHANGE",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵadvance",
+      "name": "ɵɵadvance",
+      "val": 131,
+      "entryPoint": false
+    },
+    {
+      "id": "selectIndexInternal",
+      "name": "selectIndexInternal",
+      "val": 466,
+      "entryPoint": false
+    },
+    {
+      "id": "toTStylingRange",
+      "name": "toTStylingRange",
+      "val": 78,
+      "entryPoint": false
+    },
+    {
+      "id": "getTStylingRangePrev",
+      "name": "getTStylingRangePrev",
+      "val": 89,
+      "entryPoint": false
+    },
+    {
+      "id": "setTStylingRangePrevDuplicate",
+      "name": "setTStylingRangePrevDuplicate",
+      "val": 86,
+      "entryPoint": false
+    },
+    {
+      "id": "getTStylingRangeNext",
+      "name": "getTStylingRangeNext",
+      "val": 89,
+      "entryPoint": false
+    },
+    {
+      "id": "setTStylingRangeNext",
+      "name": "setTStylingRangeNext",
+      "val": 105,
+      "entryPoint": false
+    },
+    {
+      "id": "setTStylingRangeNextDuplicate",
+      "name": "setTStylingRangeNextDuplicate",
+      "val": 86,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshContentQueries",
+      "name": "refreshContentQueries",
+      "val": 516,
+      "entryPoint": false
+    },
+    {
+      "id": "createLView",
+      "name": "createLView",
+      "val": 739,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateTNode",
+      "name": "getOrCreateTNode",
+      "val": 2403,
+      "entryPoint": false
+    },
+    {
+      "id": "allocExpando",
+      "name": "allocExpando",
+      "val": 296,
+      "entryPoint": false
+    },
+    {
+      "id": "renderView",
+      "name": "renderView",
+      "val": 905,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshView",
+      "name": "refreshView",
+      "val": 4222,
+      "entryPoint": false
+    },
+    {
+      "id": "renderComponentOrTemplate",
+      "name": "renderComponentOrTemplate",
+      "val": 575,
+      "entryPoint": false
+    },
+    {
+      "id": "executeTemplate",
+      "name": "executeTemplate",
+      "val": 358,
+      "entryPoint": false
+    },
+    {
+      "id": "createDirectivesInstances",
+      "name": "createDirectivesInstances",
+      "val": 1729,
+      "entryPoint": false
+    },
+    {
+      "id": "saveResolvedLocalsInData",
+      "name": "saveResolvedLocalsInData",
+      "val": 424,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateTComponentView",
+      "name": "getOrCreateTComponentView",
+      "val": 375,
+      "entryPoint": false
+    },
+    {
+      "id": "createTView",
+      "name": "createTView",
+      "val": 1545,
+      "entryPoint": false
+    },
+    {
+      "id": "generatePropertyAliases",
+      "name": "generatePropertyAliases",
+      "val": 472,
+      "entryPoint": false
+    },
+    {
+      "id": "resolveDirectives",
+      "name": "resolveDirectives",
+      "val": 4152,
+      "entryPoint": false
+    },
+    {
+      "id": "registerHostBindingOpCodes",
+      "name": "registerHostBindingOpCodes",
+      "val": 745,
+      "entryPoint": false
+    },
+    {
+      "id": "invokeHostBindingsInCreationMode",
+      "name": "invokeHostBindingsInCreationMode",
+      "val": 125,
+      "entryPoint": false
+    },
+    {
+      "id": "markAsComponentHost",
+      "name": "markAsComponentHost",
+      "val": 146,
+      "entryPoint": false
+    },
+    {
+      "id": "saveNameToExportMap",
+      "name": "saveNameToExportMap",
+      "val": 266,
+      "entryPoint": false
+    },
+    {
+      "id": "initTNodeFlags",
+      "name": "initTNodeFlags",
+      "val": 212,
+      "entryPoint": false
+    },
+    {
+      "id": "configureViewWithDirective",
+      "name": "configureViewWithDirective",
+      "val": 573,
+      "entryPoint": false
+    },
+    {
+      "id": "addComponentLogic",
+      "name": "addComponentLogic",
+      "val": 524,
+      "entryPoint": false
+    },
+    {
+      "id": "setInputsFromAttrs",
+      "name": "setInputsFromAttrs",
+      "val": 535,
+      "entryPoint": false
+    },
+    {
+      "id": "generateInitialInputs",
+      "name": "generateInitialInputs",
+      "val": 512,
+      "entryPoint": false
+    },
+    {
+      "id": "createLContainer",
+      "name": "createLContainer",
+      "val": 159,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshComponent",
+      "name": "refreshComponent",
+      "val": 1427,
+      "entryPoint": false
+    },
+    {
+      "id": "renderComponent",
+      "name": "renderComponent",
+      "val": 404,
+      "entryPoint": false
+    },
+    {
+      "id": "addToViewTree",
+      "name": "addToViewTree",
+      "val": 214,
+      "entryPoint": false
+    },
+    {
+      "id": "markViewDirty",
+      "name": "markViewDirty",
+      "val": 211,
+      "entryPoint": false
+    },
+    {
+      "id": "detectChangesInternal",
+      "name": "detectChangesInternal",
+      "val": 345,
+      "entryPoint": false
+    },
+    {
+      "id": "detectChangesInRootView",
+      "name": "detectChangesInRootView",
+      "val": 365,
+      "entryPoint": false
+    },
+    {
+      "id": "executeViewQueryFn",
+      "name": "executeViewQueryFn",
+      "val": 121,
+      "entryPoint": false
+    },
+    {
+      "id": "CLEAN_PROMISE",
+      "name": "CLEAN_PROMISE",
+      "val": 54,
+      "entryPoint": false
+    },
+    {
+      "id": "getLCleanup",
+      "name": "getLCleanup",
+      "val": 67,
+      "entryPoint": false
+    },
+    {
+      "id": "handleError",
+      "name": "handleError",
+      "val": 190,
+      "entryPoint": false
+    },
+    {
+      "id": "setInputsForProperty",
+      "name": "setInputsForProperty",
+      "val": 376,
+      "entryPoint": false
+    },
+    {
+      "id": "computeStaticStyling",
+      "name": "computeStaticStyling",
+      "val": 677,
+      "entryPoint": false
+    },
+    {
+      "id": "INJECTOR$1",
+      "name": "INJECTOR$1",
+      "val": 54,
+      "entryPoint": false
+    },
+    {
+      "id": "NullInjector",
+      "name": "NullInjector",
+      "val": 305,
+      "entryPoint": false
+    },
+    {
+      "id": "INJECTOR_SCOPE",
+      "name": "INJECTOR_SCOPE",
+      "val": 65,
+      "entryPoint": false
+    },
+    {
+      "id": "NOT_YET",
+      "name": "NOT_YET",
+      "val": 15,
+      "entryPoint": false
+    },
+    {
+      "id": "CIRCULAR",
+      "name": "CIRCULAR",
+      "val": 16,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_ARRAY$1",
+      "name": "EMPTY_ARRAY$1",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "NULL_INJECTOR",
+      "name": "NULL_INJECTOR",
+      "val": 27,
+      "entryPoint": false
+    },
+    {
+      "id": "getNullInjector",
+      "name": "getNullInjector",
+      "val": 121,
+      "entryPoint": false
+    },
+    {
+      "id": "createInjectorWithoutInjectorInstances",
+      "name": "createInjectorWithoutInjectorInstances",
+      "val": 211,
+      "entryPoint": false
+    },
+    {
+      "id": "R3Injector",
+      "name": "R3Injector",
+      "val": 9345,
+      "entryPoint": false
+    },
+    {
+      "id": "injectableDefOrInjectorDefFactory",
+      "name": "injectableDefOrInjectorDefFactory",
+      "val": 1886,
+      "entryPoint": false
+    },
+    {
+      "id": "makeRecord",
+      "name": "makeRecord",
+      "val": 140,
+      "entryPoint": false
+    },
+    {
+      "id": "isValueProvider",
+      "name": "isValueProvider",
+      "val": 111,
+      "entryPoint": false
+    },
+    {
+      "id": "isTypeProvider",
+      "name": "isTypeProvider",
+      "val": 72,
+      "entryPoint": false
+    },
+    {
+      "id": "INJECTOR_IMPL",
+      "name": "INJECTOR_IMPL",
+      "val": 414,
+      "entryPoint": false
+    },
+    {
+      "id": "Injector",
+      "name": "Injector",
+      "val": 565,
+      "entryPoint": false
+    },
+    {
+      "id": "LifecycleHooksFeature",
+      "name": "LifecycleHooksFeature",
+      "val": 128,
+      "entryPoint": false
+    },
+    {
+      "id": "_symbolIterator",
+      "name": "_symbolIterator",
+      "val": 27,
+      "entryPoint": false
+    },
+    {
+      "id": "getSymbolIterator",
+      "name": "getSymbolIterator",
+      "val": 506,
+      "entryPoint": false
+    },
+    {
+      "id": "isListLikeIterable",
+      "name": "isListLikeIterable",
+      "val": 160,
+      "entryPoint": false
+    },
+    {
+      "id": "isJsObject",
+      "name": "isJsObject",
+      "val": 100,
+      "entryPoint": false
+    },
+    {
+      "id": "bindingUpdated",
+      "name": "bindingUpdated",
+      "val": 144,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵdirectiveInject",
+      "name": "ɵɵdirectiveInject",
+      "val": 237,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵproperty",
+      "name": "ɵɵproperty",
+      "val": 1975,
+      "entryPoint": false
+    },
+    {
+      "id": "setDirectiveInputsWhichShadowsStyling",
+      "name": "setDirectiveInputsWhichShadowsStyling",
+      "val": 225,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵelementStart",
+      "name": "ɵɵelementStart",
+      "val": 2224,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵelementEnd",
+      "name": "ɵɵelementEnd",
+      "val": 1200,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵelement",
+      "name": "ɵɵelement",
+      "val": 139,
+      "entryPoint": false
+    },
+    {
+      "id": "isPromise",
+      "name": "isPromise",
+      "val": 78,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵlistener",
+      "name": "ɵɵlistener",
+      "val": 3752,
+      "entryPoint": false
+    },
+    {
+      "id": "executeListenerWithErrorHandling",
+      "name": "executeListenerWithErrorHandling",
+      "val": 175,
+      "entryPoint": false
+    },
+    {
+      "id": "wrapListener",
+      "name": "wrapListener",
+      "val": 797,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵnextContext",
+      "name": "ɵɵnextContext",
+      "val": 336,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_ARRAY$2",
+      "name": "EMPTY_ARRAY$2",
+      "val": 25,
+      "entryPoint": false
+    },
+    {
+      "id": "markDuplicates",
+      "name": "markDuplicates",
+      "val": 961,
+      "entryPoint": false
+    },
+    {
+      "id": "isStylingMatch",
+      "name": "isStylingMatch",
+      "val": 382,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵclassProp",
+      "name": "ɵɵclassProp",
+      "val": 11581,
+      "entryPoint": false
+    },
+    {
+      "id": "collectStylingFromDirectives",
+      "name": "collectStylingFromDirectives",
+      "val": 744,
+      "entryPoint": false
+    },
+    {
+      "id": "collectStylingFromTAttrs",
+      "name": "collectStylingFromTAttrs",
+      "val": 596,
+      "entryPoint": false
+    },
+    {
+      "id": "findStylingValue",
+      "name": "findStylingValue",
+      "val": 1204,
+      "entryPoint": false
+    },
+    {
+      "id": "isStylingValuePresent",
+      "name": "isStylingValuePresent",
+      "val": 69,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵtext",
+      "name": "ɵɵtext",
+      "val": 552,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵtextInterpolate",
+      "name": "ɵɵtextInterpolate",
+      "val": 95,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵtextInterpolate1",
+      "name": "ɵɵtextInterpolate1",
+      "val": 1006,
+      "entryPoint": false
+    },
+    {
+      "id": "u",
+      "name": "u",
+      "val": 17,
+      "entryPoint": false
+    },
+    {
+      "id": "localeEn",
+      "name": "localeEn",
+      "val": 1268,
+      "entryPoint": false
+    },
+    {
+      "id": "LOCALE_DATA",
+      "name": "LOCALE_DATA",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "getLocaleData",
+      "name": "getLocaleData",
+      "val": 315,
+      "entryPoint": false
+    },
+    {
+      "id": "LocaleDataIndex",
+      "name": "LocaleDataIndex",
+      "val": 1785,
+      "entryPoint": false
+    },
+    {
+      "id": "LOCALE_ID",
+      "name": "LOCALE_ID",
+      "val": 24,
+      "entryPoint": false
+    },
+    {
+      "id": "setLocaleId",
+      "name": "setLocaleId",
+      "val": 400,
+      "entryPoint": false
+    },
+    {
+      "id": "ComponentFactory",
+      "name": "ComponentFactory",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "_NullComponentFactoryResolver",
+      "name": "_NullComponentFactoryResolver",
+      "val": 358,
+      "entryPoint": false
+    },
+    {
+      "id": "ComponentFactoryResolver",
+      "name": "ComponentFactoryResolver",
+      "val": 197,
+      "entryPoint": false
+    },
+    {
+      "id": "noop",
+      "name": "noop",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "createElementRef",
+      "name": "createElementRef",
+      "val": 101,
+      "entryPoint": false
+    },
+    {
+      "id": "SWITCH_ELEMENT_REF_FACTORY",
+      "name": "SWITCH_ELEMENT_REF_FACTORY",
+      "val": 109,
+      "entryPoint": false
+    },
+    {
+      "id": "ElementRef",
+      "name": "ElementRef",
+      "val": 219,
+      "entryPoint": false
+    },
+    {
+      "id": "RendererFactory2",
+      "name": "RendererFactory2",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "Sanitizer",
+      "name": "Sanitizer",
+      "val": 211,
+      "entryPoint": false
+    },
+    {
+      "id": "Version",
+      "name": "Version",
+      "val": 207,
+      "entryPoint": false
+    },
+    {
+      "id": "VERSION",
+      "name": "VERSION",
+      "val": 49,
+      "entryPoint": false
+    },
+    {
+      "id": "DefaultIterableDifferFactory",
+      "name": "DefaultIterableDifferFactory",
+      "val": 191,
+      "entryPoint": false
+    },
+    {
+      "id": "trackByIdentity",
+      "name": "trackByIdentity",
+      "val": 46,
+      "entryPoint": false
+    },
+    {
+      "id": "DefaultIterableDiffer",
+      "name": "DefaultIterableDiffer",
+      "val": 10891,
+      "entryPoint": false
+    },
+    {
+      "id": "IterableChangeRecord_",
+      "name": "IterableChangeRecord_",
+      "val": 520,
+      "entryPoint": false
+    },
+    {
+      "id": "_DuplicateItemRecordList",
+      "name": "_DuplicateItemRecordList",
+      "val": 972,
+      "entryPoint": false
+    },
+    {
+      "id": "_DuplicateMap",
+      "name": "_DuplicateMap",
+      "val": 681,
+      "entryPoint": false
+    },
+    {
+      "id": "getPreviousIndex",
+      "name": "getPreviousIndex",
+      "val": 349,
+      "entryPoint": false
+    },
+    {
+      "id": "DefaultKeyValueDifferFactory",
+      "name": "DefaultKeyValueDifferFactory",
+      "val": 187,
+      "entryPoint": false
+    },
+    {
+      "id": "DefaultKeyValueDiffer",
+      "name": "DefaultKeyValueDiffer",
+      "val": 5430,
+      "entryPoint": false
+    },
+    {
+      "id": "KeyValueChangeRecord_",
+      "name": "KeyValueChangeRecord_",
+      "val": 337,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultIterableDiffersFactory",
+      "name": "defaultIterableDiffersFactory",
+      "val": 113,
+      "entryPoint": false
+    },
+    {
+      "id": "IterableDiffers",
+      "name": "IterableDiffers",
+      "val": 1412,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultKeyValueDiffersFactory",
+      "name": "defaultKeyValueDiffersFactory",
+      "val": 113,
+      "entryPoint": false
+    },
+    {
+      "id": "KeyValueDiffers",
+      "name": "KeyValueDiffers",
+      "val": 1022,
+      "entryPoint": false
+    },
+    {
+      "id": "ViewRef",
+      "name": "ViewRef",
+      "val": 3398,
+      "entryPoint": false
+    },
+    {
+      "id": "RootViewRef",
+      "name": "RootViewRef",
+      "val": 433,
+      "entryPoint": false
+    },
+    {
+      "id": "keyValDiff",
+      "name": "keyValDiff",
+      "val": 56,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultIterableDiffers",
+      "name": "defaultIterableDiffers",
+      "val": 85,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultKeyValueDiffers",
+      "name": "defaultKeyValueDiffers",
+      "val": 59,
+      "entryPoint": false
+    },
+    {
+      "id": "SWITCH_TEMPLATE_REF_FACTORY",
+      "name": "SWITCH_TEMPLATE_REF_FACTORY",
+      "val": 531,
+      "entryPoint": false
+    },
+    {
+      "id": "TemplateRef",
+      "name": "TemplateRef",
+      "val": 140,
+      "entryPoint": false
+    },
+    {
+      "id": "ViewEngineTemplateRef",
+      "name": "ViewEngineTemplateRef",
+      "val": 42,
+      "entryPoint": false
+    },
+    {
+      "id": "R3TemplateRef",
+      "name": "R3TemplateRef",
+      "val": 1075,
+      "entryPoint": false
+    },
+    {
+      "id": "NgModuleRef",
+      "name": "NgModuleRef",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "name": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "val": 1381,
+      "entryPoint": false
+    },
+    {
+      "id": "ViewContainerRef",
+      "name": "ViewContainerRef",
+      "val": 166,
+      "entryPoint": false
+    },
+    {
+      "id": "VE_ViewContainerRef",
+      "name": "VE_ViewContainerRef",
+      "val": 45,
+      "entryPoint": false
+    },
+    {
+      "id": "R3ViewContainerRef",
+      "name": "R3ViewContainerRef",
+      "val": 7200,
+      "entryPoint": false
+    },
+    {
+      "id": "getViewRefs",
+      "name": "getViewRefs",
+      "val": 61,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateViewRefs",
+      "name": "getOrCreateViewRefs",
+      "val": 93,
+      "entryPoint": false
+    },
+    {
+      "id": "NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR",
+      "name": "NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR",
+      "val": 49,
+      "entryPoint": false
+    },
+    {
+      "id": "ComponentFactoryResolver$1",
+      "name": "ComponentFactoryResolver$1",
+      "val": 301,
+      "entryPoint": false
+    },
+    {
+      "id": "toRefArray",
+      "name": "toRefArray",
+      "val": 235,
+      "entryPoint": false
+    },
+    {
+      "id": "SCHEDULER",
+      "name": "SCHEDULER",
+      "val": 118,
+      "entryPoint": false
+    },
+    {
+      "id": "ComponentFactory$1",
+      "name": "ComponentFactory$1",
+      "val": 8894,
+      "entryPoint": false
+    },
+    {
+      "id": "ComponentRef$1",
+      "name": "ComponentRef$1",
+      "val": 584,
+      "entryPoint": false
+    },
+    {
+      "id": "modules",
+      "name": "modules",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "NgModuleRef$1",
+      "name": "NgModuleRef$1",
+      "val": 1528,
+      "entryPoint": false
+    },
+    {
+      "id": "NgModuleFactory$1",
+      "name": "NgModuleFactory$1",
+      "val": 1094,
+      "entryPoint": false
+    },
+    {
+      "id": "extendStatics",
+      "name": "extendStatics",
+      "val": 314,
+      "entryPoint": false
+    },
+    {
+      "id": "__extends",
+      "name": "__extends",
+      "val": 194,
+      "entryPoint": false
+    },
+    {
+      "id": "isFunction",
+      "name": "isFunction",
+      "val": 60,
+      "entryPoint": false
+    },
+    {
+      "id": "_enable_super_gross_mode_that_will_cause_bad_things",
+      "name": "_enable_super_gross_mode_that_will_cause_bad_things",
+      "val": 61,
+      "entryPoint": false
+    },
+    {
+      "id": "config",
+      "name": "config",
+      "val": 290,
+      "entryPoint": false
+    },
+    {
+      "id": "hostReportError",
+      "name": "hostReportError",
+      "val": 85,
+      "entryPoint": false
+    },
+    {
+      "id": "empty",
+      "name": "empty",
+      "val": 225,
+      "entryPoint": false
+    },
+    {
+      "id": "isArray",
+      "name": "isArray",
+      "val": 155,
+      "entryPoint": false
+    },
+    {
+      "id": "isObject",
+      "name": "isObject",
+      "val": 70,
+      "entryPoint": false
+    },
+    {
+      "id": "UnsubscriptionError",
+      "name": "UnsubscriptionError",
+      "val": 652,
+      "entryPoint": false
+    },
+    {
+      "id": "Subscription",
+      "name": "Subscription",
+      "val": 3916,
+      "entryPoint": false
+    },
+    {
+      "id": "flattenUnsubscriptionErrors",
+      "name": "flattenUnsubscriptionErrors",
+      "val": 184,
+      "entryPoint": false
+    },
+    {
+      "id": "rxSubscriber",
+      "name": "rxSubscriber",
+      "val": 142,
+      "entryPoint": false
+    },
+    {
+      "id": "Subscriber",
+      "name": "Subscriber",
+      "val": 2808,
+      "entryPoint": false
+    },
+    {
+      "id": "SafeSubscriber",
+      "name": "SafeSubscriber",
+      "val": 4079,
+      "entryPoint": false
+    },
+    {
+      "id": "observable",
+      "name": "observable",
+      "val": 118,
+      "entryPoint": false
+    },
+    {
+      "id": "noop$1",
+      "name": "noop$1",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "pipeFromArray",
+      "name": "pipeFromArray",
+      "val": 234,
+      "entryPoint": false
+    },
+    {
+      "id": "Observable",
+      "name": "Observable",
+      "val": 3704,
+      "entryPoint": false
+    },
+    {
+      "id": "getPromiseCtor",
+      "name": "getPromiseCtor",
+      "val": 171,
+      "entryPoint": false
+    },
+    {
+      "id": "ObjectUnsubscribedError",
+      "name": "ObjectUnsubscribedError",
+      "val": 397,
+      "entryPoint": false
+    },
+    {
+      "id": "SubjectSubscription",
+      "name": "SubjectSubscription",
+      "val": 899,
+      "entryPoint": false
+    },
+    {
+      "id": "SubjectSubscriber",
+      "name": "SubjectSubscriber",
+      "val": 293,
+      "entryPoint": false
+    },
+    {
+      "id": "Subject",
+      "name": "Subject",
+      "val": 2859,
+      "entryPoint": false
+    },
+    {
+      "id": "AnonymousSubject",
+      "name": "AnonymousSubject",
+      "val": 1049,
+      "entryPoint": false
+    },
+    {
+      "id": "refCount",
+      "name": "refCount",
+      "val": 112,
+      "entryPoint": false
+    },
+    {
+      "id": "RefCountOperator",
+      "name": "RefCountOperator",
+      "val": 565,
+      "entryPoint": false
+    },
+    {
+      "id": "RefCountSubscriber",
+      "name": "RefCountSubscriber",
+      "val": 1071,
+      "entryPoint": false
+    },
+    {
+      "id": "ConnectableObservable",
+      "name": "ConnectableObservable",
+      "val": 1446,
+      "entryPoint": false
+    },
+    {
+      "id": "connectableObservableDescriptor",
+      "name": "connectableObservableDescriptor",
+      "val": 776,
+      "entryPoint": false
+    },
+    {
+      "id": "ConnectableSubscriber",
+      "name": "ConnectableSubscriber",
+      "val": 1120,
+      "entryPoint": false
+    },
+    {
+      "id": "isScheduler",
+      "name": "isScheduler",
+      "val": 87,
+      "entryPoint": false
+    },
+    {
+      "id": "subscribeToArray",
+      "name": "subscribeToArray",
+      "val": 218,
+      "entryPoint": false
+    },
+    {
+      "id": "fromArray",
+      "name": "fromArray",
+      "val": 620,
+      "entryPoint": false
+    },
+    {
+      "id": "identity",
+      "name": "identity",
+      "val": 37,
+      "entryPoint": false
+    },
+    {
+      "id": "MapOperator",
+      "name": "MapOperator",
+      "val": 357,
+      "entryPoint": false
+    },
+    {
+      "id": "MapSubscriber",
+      "name": "MapSubscriber",
+      "val": 679,
+      "entryPoint": false
+    },
+    {
+      "id": "OuterSubscriber",
+      "name": "OuterSubscriber",
+      "val": 716,
+      "entryPoint": false
+    },
+    {
+      "id": "InnerSubscriber",
+      "name": "InnerSubscriber",
+      "val": 867,
+      "entryPoint": false
+    },
+    {
+      "id": "getSymbolIterator$1",
+      "name": "getSymbolIterator$1",
+      "val": 125,
+      "entryPoint": false
+    },
+    {
+      "id": "iterator",
+      "name": "iterator",
+      "val": 37,
+      "entryPoint": false
+    },
+    {
+      "id": "subscribeTo",
+      "name": "subscribeTo",
+      "val": 2025,
+      "entryPoint": false
+    },
+    {
+      "id": "MergeMapOperator",
+      "name": "MergeMapOperator",
+      "val": 472,
+      "entryPoint": false
+    },
+    {
+      "id": "MergeMapSubscriber",
+      "name": "MergeMapSubscriber",
+      "val": 2757,
+      "entryPoint": false
+    },
+    {
+      "id": "mergeAll",
+      "name": "mergeAll",
+      "val": 1256,
+      "entryPoint": false
+    },
+    {
+      "id": "EventEmitter",
+      "name": "EventEmitter",
+      "val": 2230,
+      "entryPoint": false
+    },
+    {
+      "id": "shareSubjectFactory",
+      "name": "shareSubjectFactory",
+      "val": 59,
+      "entryPoint": false
+    },
+    {
+      "id": "APP_INITIALIZER",
+      "name": "APP_INITIALIZER",
+      "val": 70,
+      "entryPoint": false
+    },
+    {
+      "id": "ApplicationInitStatus",
+      "name": "ApplicationInitStatus",
+      "val": 1345,
+      "entryPoint": false
+    },
+    {
+      "id": "APP_ID",
+      "name": "APP_ID",
+      "val": 43,
+      "entryPoint": false
+    },
+    {
+      "id": "APP_ID_RANDOM_PROVIDER",
+      "name": "APP_ID_RANDOM_PROVIDER",
+      "val": 170,
+      "entryPoint": false
+    },
+    {
+      "id": "_randomChar",
+      "name": "_randomChar",
+      "val": 94,
+      "entryPoint": false
+    },
+    {
+      "id": "PLATFORM_INITIALIZER",
+      "name": "PLATFORM_INITIALIZER",
+      "val": 72,
+      "entryPoint": false
+    },
+    {
+      "id": "PLATFORM_ID",
+      "name": "PLATFORM_ID",
+      "val": 50,
+      "entryPoint": false
+    },
+    {
+      "id": "APP_BOOTSTRAP_LISTENER",
+      "name": "APP_BOOTSTRAP_LISTENER",
+      "val": 70,
+      "entryPoint": false
+    },
+    {
+      "id": "LOCALE_ID$1",
+      "name": "LOCALE_ID$1",
+      "val": 47,
+      "entryPoint": false
+    },
+    {
+      "id": "DEFAULT_CURRENCY_CODE",
+      "name": "DEFAULT_CURRENCY_CODE",
+      "val": 68,
+      "entryPoint": false
+    },
+    {
+      "id": "ModuleWithComponentFactories",
+      "name": "ModuleWithComponentFactories",
+      "val": 191,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleSync__POST_R3__",
+      "name": "Compiler_compileModuleSync__POST_R3__",
+      "val": 120,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleSync",
+      "name": "Compiler_compileModuleSync",
+      "val": 69,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleAsync",
+      "name": "Compiler_compileModuleAsync",
+      "val": 139,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "name": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "val": 566,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleAndAllComponentsSync",
+      "name": "Compiler_compileModuleAndAllComponentsSync",
+      "val": 101,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler_compileModuleAndAllComponentsAsync",
+      "name": "Compiler_compileModuleAndAllComponentsAsync",
+      "val": 171,
+      "entryPoint": false
+    },
+    {
+      "id": "Compiler",
+      "name": "Compiler",
+      "val": 688,
+      "entryPoint": false
+    },
+    {
+      "id": "promise",
+      "name": "promise",
+      "val": 45,
+      "entryPoint": false
+    },
+    {
+      "id": "scheduleMicroTask",
+      "name": "scheduleMicroTask",
+      "val": 199,
+      "entryPoint": false
+    },
+    {
+      "id": "NgZone",
+      "name": "NgZone",
+      "val": 5995,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_PAYLOAD",
+      "name": "EMPTY_PAYLOAD",
+      "val": 25,
+      "entryPoint": false
+    },
+    {
+      "id": "checkStable",
+      "name": "checkStable",
+      "val": 391,
+      "entryPoint": false
+    },
+    {
+      "id": "updateMicroTaskStatus",
+      "name": "updateMicroTaskStatus",
+      "val": 252,
+      "entryPoint": false
+    },
+    {
+      "id": "onEnter",
+      "name": "onEnter",
+      "val": 115,
+      "entryPoint": false
+    },
+    {
+      "id": "onLeave",
+      "name": "onLeave",
+      "val": 65,
+      "entryPoint": false
+    },
+    {
+      "id": "NoopNgZone",
+      "name": "NoopNgZone",
+      "val": 641,
+      "entryPoint": false
+    },
+    {
+      "id": "Testability",
+      "name": "Testability",
+      "val": 3705,
+      "entryPoint": false
+    },
+    {
+      "id": "TestabilityRegistry",
+      "name": "TestabilityRegistry",
+      "val": 1190,
+      "entryPoint": false
+    },
+    {
+      "id": "_NoopGetTestability",
+      "name": "_NoopGetTestability",
+      "val": 137,
+      "entryPoint": false
+    },
+    {
+      "id": "_testabilityGetter",
+      "name": "_testabilityGetter",
+      "val": 51,
+      "entryPoint": false
+    },
+    {
+      "id": "_devMode",
+      "name": "_devMode",
+      "val": 16,
+      "entryPoint": false
+    },
+    {
+      "id": "_runModeLocked",
+      "name": "_runModeLocked",
+      "val": 22,
+      "entryPoint": false
+    },
+    {
+      "id": "isDevMode",
+      "name": "isDevMode",
+      "val": 67,
+      "entryPoint": false
+    },
+    {
+      "id": "_platform",
+      "name": "_platform",
+      "val": 14,
+      "entryPoint": false
+    },
+    {
+      "id": "Console",
+      "name": "Console",
+      "val": 402,
+      "entryPoint": false
+    },
+    {
+      "id": "ALLOW_MULTIPLE_PLATFORMS",
+      "name": "ALLOW_MULTIPLE_PLATFORMS",
+      "val": 74,
+      "entryPoint": false
+    },
+    {
+      "id": "createPlatformFactory",
+      "name": "createPlatformFactory",
+      "val": 1772,
+      "entryPoint": false
+    },
+    {
+      "id": "getPlatform",
+      "name": "getPlatform",
+      "val": 90,
+      "entryPoint": false
+    },
+    {
+      "id": "PlatformRef",
+      "name": "PlatformRef",
+      "val": 4975,
+      "entryPoint": false
+    },
+    {
+      "id": "optionsReducer",
+      "name": "optionsReducer",
+      "val": 158,
+      "entryPoint": false
+    },
+    {
+      "id": "ApplicationRef",
+      "name": "ApplicationRef",
+      "val": 7142,
+      "entryPoint": false
+    },
+    {
+      "id": "remove",
+      "name": "remove",
+      "val": 103,
+      "entryPoint": false
+    },
+    {
+      "id": "platformCore",
+      "name": "platformCore",
+      "val": 315,
+      "entryPoint": false
+    },
+    {
+      "id": "APPLICATION_MODULE_PROVIDERS",
+      "name": "APPLICATION_MODULE_PROVIDERS",
+      "val": 1824,
+      "entryPoint": false
+    },
+    {
+      "id": "ApplicationModule",
+      "name": "ApplicationModule",
+      "val": 471,
+      "entryPoint": false
+    },
+    {
+      "id": "_DOM",
+      "name": "_DOM",
+      "val": 14,
+      "entryPoint": false
+    },
+    {
+      "id": "getDOM",
+      "name": "getDOM",
+      "val": 37,
+      "entryPoint": false
+    },
+    {
+      "id": "DOCUMENT$1",
+      "name": "DOCUMENT$1",
+      "val": 55,
+      "entryPoint": false
+    },
+    {
+      "id": "Plural",
+      "name": "Plural",
+      "val": 316,
+      "entryPoint": false
+    },
+    {
+      "id": "NgLocalization",
+      "name": "NgLocalization",
+      "val": 25,
+      "entryPoint": false
+    },
+    {
+      "id": "NgLocaleLocalization",
+      "name": "NgLocaleLocalization",
+      "val": 1842,
+      "entryPoint": false
+    },
+    {
+      "id": "NgForOfContext",
+      "name": "NgForOfContext",
+      "val": 404,
+      "entryPoint": false
+    },
+    {
+      "id": "NgForOf",
+      "name": "NgForOf",
+      "val": 3734,
+      "entryPoint": false
+    },
+    {
+      "id": "RecordViewTuple",
+      "name": "RecordViewTuple",
+      "val": 108,
+      "entryPoint": false
+    },
+    {
+      "id": "CommonModule",
+      "name": "CommonModule",
+      "val": 429,
+      "entryPoint": false
+    },
+    {
+      "id": "BrowserDomAdapter",
+      "name": "BrowserDomAdapter",
+      "val": 3400,
+      "entryPoint": false
+    },
+    {
+      "id": "urlParsingNode",
+      "name": "urlParsingNode",
+      "val": 19,
+      "entryPoint": false
+    },
+    {
+      "id": "baseElement",
+      "name": "baseElement",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "TRANSITION_ID",
+      "name": "TRANSITION_ID",
+      "val": 58,
+      "entryPoint": false
+    },
+    {
+      "id": "SERVER_TRANSITION_PROVIDERS",
+      "name": "SERVER_TRANSITION_PROVIDERS",
+      "val": 612,
+      "entryPoint": false
+    },
+    {
+      "id": "BrowserGetTestability",
+      "name": "BrowserGetTestability",
+      "val": 1529,
+      "entryPoint": false
+    },
+    {
+      "id": "EVENT_MANAGER_PLUGINS",
+      "name": "EVENT_MANAGER_PLUGINS",
+      "val": 72,
+      "entryPoint": false
+    },
+    {
+      "id": "EventManager",
+      "name": "EventManager",
+      "val": 1375,
+      "entryPoint": false
+    },
+    {
+      "id": "EventManagerPlugin",
+      "name": "EventManagerPlugin",
+      "val": 364,
+      "entryPoint": false
+    },
+    {
+      "id": "SharedStylesHost",
+      "name": "SharedStylesHost",
+      "val": 784,
+      "entryPoint": false
+    },
+    {
+      "id": "DomSharedStylesHost",
+      "name": "DomSharedStylesHost",
+      "val": 1315,
+      "entryPoint": false
+    },
+    {
+      "id": "NAMESPACE_URIS",
+      "name": "NAMESPACE_URIS",
+      "val": 247,
+      "entryPoint": false
+    },
+    {
+      "id": "COMPONENT_REGEX",
+      "name": "COMPONENT_REGEX",
+      "val": 30,
+      "entryPoint": false
+    },
+    {
+      "id": "flattenStyles",
+      "name": "flattenStyles",
+      "val": 293,
+      "entryPoint": false
+    },
+    {
+      "id": "decoratePreventDefault",
+      "name": "decoratePreventDefault",
+      "val": 218,
+      "entryPoint": false
+    },
+    {
+      "id": "DomRendererFactory2",
+      "name": "DomRendererFactory2",
+      "val": 1908,
+      "entryPoint": false
+    },
+    {
+      "id": "DefaultDomRenderer2",
+      "name": "DefaultDomRenderer2",
+      "val": 2631,
+      "entryPoint": false
+    },
+    {
+      "id": "EmulatedEncapsulationDomRenderer2",
+      "name": "EmulatedEncapsulationDomRenderer2",
+      "val": 819,
+      "entryPoint": false
+    },
+    {
+      "id": "ShadowDomRenderer",
+      "name": "ShadowDomRenderer",
+      "val": 1239,
+      "entryPoint": false
+    },
+    {
+      "id": "DomEventsPlugin",
+      "name": "DomEventsPlugin",
+      "val": 796,
+      "entryPoint": false
+    },
+    {
+      "id": "MODIFIER_KEYS",
+      "name": "MODIFIER_KEYS",
+      "val": 58,
+      "entryPoint": false
+    },
+    {
+      "id": "_keyMap",
+      "name": "_keyMap",
+      "val": 290,
+      "entryPoint": false
+    },
+    {
+      "id": "_chromeNumKeyPadMap",
+      "name": "_chromeNumKeyPadMap",
+      "val": 232,
+      "entryPoint": false
+    },
+    {
+      "id": "MODIFIER_KEY_GETTERS",
+      "name": "MODIFIER_KEY_GETTERS",
+      "val": 178,
+      "entryPoint": false
+    },
+    {
+      "id": "KeyEventsPlugin",
+      "name": "KeyEventsPlugin",
+      "val": 3309,
+      "entryPoint": false
+    },
+    {
+      "id": "platformBrowser",
+      "name": "platformBrowser",
+      "val": 557,
+      "entryPoint": false
+    },
+    {
+      "id": "BROWSER_MODULE_PROVIDERS",
+      "name": "BROWSER_MODULE_PROVIDERS",
+      "val": 1172,
+      "entryPoint": false
+    },
+    {
+      "id": "BrowserModule",
+      "name": "BrowserModule",
+      "val": 1062,
+      "entryPoint": false
+    },
+    {
+      "id": "bindAction",
+      "name": "bindAction",
+      "val": 116,
+      "entryPoint": false
+    },
+    {
+      "id": "_random",
+      "name": "_random",
+      "val": 75,
+      "entryPoint": false
+    },
+    {
+      "id": "buildData",
+      "name": "buildData",
+      "val": 306,
+      "entryPoint": false
+    },
+    {
+      "id": "ADJECTIVES",
+      "name": "ADJECTIVES",
+      "val": 373,
+      "entryPoint": false
+    },
+    {
+      "id": "COLOURS",
+      "name": "COLOURS",
+      "val": 160,
+      "entryPoint": false
+    },
+    {
+      "id": "NOUNS",
+      "name": "NOUNS",
+      "val": 187,
+      "entryPoint": false
+    },
+    {
+      "id": "JsWebFrameworksComponent_tr_2_Template",
+      "name": "JsWebFrameworksComponent_tr_2_Template",
+      "val": 1194,
+      "entryPoint": false
+    },
+    {
+      "id": "JsWebFrameworksComponent",
+      "name": "JsWebFrameworksComponent",
+      "val": 4034,
+      "entryPoint": false
+    },
+    {
+      "id": "JsWebFrameworksModule",
+      "name": "JsWebFrameworksModule",
+      "val": 473,
+      "entryPoint": false
+    },
+    {
+      "id": "JsWebFrameworksModuleNgFactory",
+      "name": "JsWebFrameworksModuleNgFactory",
+      "val": 125,
+      "entryPoint": false
+    },
+    {
+      "id": "exp#: !(function () {\n  const regex = /(\\w+)=(\\w+)/g,\n  ",
+      "name": "exp#: !(function () {\n  const regex = /(\\w+)=(\\w+)/g,\n  ",
+      "val": 471,
+      "entryPoint": true
+    },
+    {
+      "id": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "name": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "val": 1165,
+      "entryPoint": true
+    }
+  ],
+  "links": [
+    {
+      "source": "__forward_ref__",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "__forward_ref__",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PROV_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PROV_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJ_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJ_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJECTABLE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJECTABLE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJECTOR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_INJECTOR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_COMP_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_COMP_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_DIR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_DIR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PIPE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PIPE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_MOD_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_MOD_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_LOC_ID_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_LOC_ID_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_FACTORY_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_FACTORY_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_ELEMENT_ID",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_ELEMENT_ID",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "USE_VALUE",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "USE_VALUE",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "forwardRef",
+      "target": "stringify"
+    },
+    {
+      "source": "injectRootLimpMode",
+      "target": "stringify"
+    },
+    {
+      "source": "getNgModuleDef",
+      "target": "stringify"
+    },
+    {
+      "source": "NullInjector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "R3Injector",
+      "target": "stringify"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "stringify"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "stringify"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "stringify"
+    },
+    {
+      "source": "_NullComponentFactoryResolver",
+      "target": "stringify"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "stringify"
+    },
+    {
+      "source": "DefaultKeyValueDiffer",
+      "target": "stringify"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "stringify"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "stringify"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "stringify"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "stringify"
+    },
+    {
+      "source": "computeStaticStyling",
+      "target": "concatStringsWithSpace"
+    },
+    {
+      "source": "computeStaticStyling",
+      "target": "concatStringsWithSpace"
+    },
+    {
+      "source": "resolveForwardRef",
+      "target": "__forward_ref__"
+    },
+    {
+      "source": "resolveForwardRef",
+      "target": "forwardRef"
+    },
+    {
+      "source": "ɵɵinject",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "injectArgs",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "resolveForwardRef"
+    },
+    {
+      "source": "InjectionToken",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "Injector",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "Sanitizer",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "IterableDiffers",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "KeyValueDiffers",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "Compiler",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "Testability",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "TestabilityRegistry",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "Console",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "EventManager",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "SharedStylesHost",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "DomSharedStylesHost",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "DomEventsPlugin",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "ɵɵdefineInjectable"
+    },
+    {
+      "source": "ApplicationModule",
+      "target": "ɵɵdefineInjector"
+    },
+    {
+      "source": "CommonModule",
+      "target": "ɵɵdefineInjector"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "ɵɵdefineInjector"
+    },
+    {
+      "source": "JsWebFrameworksModule",
+      "target": "ɵɵdefineInjector"
+    },
+    {
+      "source": "injectRootLimpMode",
+      "target": "getInjectableDef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getInjectableDef"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "getInjectableDef"
+    },
+    {
+      "source": "getInjectableDef",
+      "target": "getOwnDefinition"
+    },
+    {
+      "source": "getInjectableDef",
+      "target": "getOwnDefinition"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getInjectorDef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getInjectorDef"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "getInjectorDef"
+    },
+    {
+      "source": "getInjectableDef",
+      "target": "NG_PROV_DEF"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "NG_PROV_DEF"
+    },
+    {
+      "source": "getInjectorDef",
+      "target": "NG_INJ_DEF"
+    },
+    {
+      "source": "getInjectorDef",
+      "target": "NG_INJ_DEF"
+    },
+    {
+      "source": "getInjectableDef",
+      "target": "NG_INJECTABLE_DEF"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "NG_INJECTABLE_DEF"
+    },
+    {
+      "source": "getInjectorDef",
+      "target": "NG_INJECTOR_DEF"
+    },
+    {
+      "source": "injectRootLimpMode",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "enterDI",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "enterDI",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "notFoundValueOrThrow",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "shouldSearchParent",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "shouldSearchParent",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "ɵɵinject",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectArgs",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectArgs",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectArgs",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "injectArgs",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "R3Injector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "R3Injector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "R3Injector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "R3Injector",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "setInjectImplementation",
+      "target": "_injectImplementation"
+    },
+    {
+      "source": "setInjectImplementation",
+      "target": "_injectImplementation"
+    },
+    {
+      "source": "ɵɵinject",
+      "target": "_injectImplementation"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "injectRootLimpMode"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "injectRootLimpMode"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "noSideEffects"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "noSideEffects"
+    },
+    {
+      "source": "makeParamDecorator",
+      "target": "noSideEffects"
+    },
+    {
+      "source": "JsWebFrameworksModuleNgFactory",
+      "target": "noSideEffects"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "ChangeDetectionStrategy"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "appendChild",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "appendChild",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "_global",
+      "target": "__globalThis"
+    },
+    {
+      "source": "_global",
+      "target": "__window"
+    },
+    {
+      "source": "_global",
+      "target": "__self"
+    },
+    {
+      "source": "_global",
+      "target": "__global"
+    },
+    {
+      "source": "defaultScheduler",
+      "target": "_global"
+    },
+    {
+      "source": "getSymbolIterator",
+      "target": "_global"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "_global"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "_global"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "_global"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "_global"
+    },
+    {
+      "source": "NgZone",
+      "target": "_global"
+    },
+    {
+      "source": "NgZone",
+      "target": "_global"
+    },
+    {
+      "source": "NgZone",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_global"
+    },
+    {
+      "source": "invertObject",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "getComponentDef",
+      "target": "NG_COMP_DEF"
+    },
+    {
+      "source": "extractDirectiveDef",
+      "target": "NG_DIR_DEF"
+    },
+    {
+      "source": "extractPipeDef",
+      "target": "NG_PIPE_DEF"
+    },
+    {
+      "source": "getNgModuleDef",
+      "target": "NG_MOD_DEF"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "NG_LOC_ID_DEF"
+    },
+    {
+      "source": "getFactoryDef",
+      "target": "NG_FACTORY_DEF"
+    },
+    {
+      "source": "getFactoryDef",
+      "target": "NG_FACTORY_DEF"
+    },
+    {
+      "source": "diPublicInInjector",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "diPublicInInjector",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "diPublicInInjector",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "_renderCompCount"
+    },
+    {
+      "source": "ɵɵdefineDirective",
+      "target": "ɵɵdefineComponent"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵdefineComponent"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "extractDirectiveDef"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "extractPipeDef"
+    },
+    {
+      "source": "ɵɵdefineNgModule",
+      "target": "autoRegisterModuleById"
+    },
+    {
+      "source": "ApplicationModule",
+      "target": "ɵɵdefineNgModule"
+    },
+    {
+      "source": "CommonModule",
+      "target": "ɵɵdefineNgModule"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "ɵɵdefineNgModule"
+    },
+    {
+      "source": "JsWebFrameworksModule",
+      "target": "ɵɵdefineNgModule"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "invertObject"
+    },
+    {
+      "source": "ɵɵdefineComponent",
+      "target": "invertObject"
+    },
+    {
+      "source": "NgForOf",
+      "target": "ɵɵdefineDirective"
+    },
+    {
+      "source": "extractDirectiveDef",
+      "target": "getComponentDef"
+    },
+    {
+      "source": "ComponentFactoryResolver$1",
+      "target": "getComponentDef"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "getComponentDef"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "getNgModuleDef"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "getNgModuleDef"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "getNgModuleDef"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "getNgModuleDef"
+    },
+    {
+      "source": "getComponentLViewByIndex",
+      "target": "isLView"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "isLView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "isLView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "isLView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "isLView"
+    },
+    {
+      "source": "getLViewParent",
+      "target": "isLContainer"
+    },
+    {
+      "source": "getNearestLContainer",
+      "target": "isLContainer"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "isLContainer"
+    },
+    {
+      "source": "cleanUpView",
+      "target": "isLContainer"
+    },
+    {
+      "source": "ViewRef",
+      "target": "isLContainer"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "isLContainer"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "isLContainer"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "isLContainer"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "isContentQueryHost"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "isContentQueryHost"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "isComponentHost"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "isComponentHost"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "isDirectiveHost"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "isDirectiveHost"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "isDirectiveHost"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "isComponentDef"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "isComponentDef"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "isComponentDef"
+    },
+    {
+      "source": "saveNameToExportMap",
+      "target": "isComponentDef"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "isComponentDef"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "getFactoryDef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getFactoryDef"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getFactoryDef"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "getFactoryDef"
+    },
+    {
+      "source": "throwProviderNotFoundError",
+      "target": "RuntimeError"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "RuntimeError"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "RuntimeError"
+    },
+    {
+      "source": "stringifyForError",
+      "target": "renderStringify"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "renderStringify"
+    },
+    {
+      "source": "throwProviderNotFoundError",
+      "target": "stringifyForError"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "stringifyForError"
+    },
+    {
+      "source": "notFoundValueOrThrow",
+      "target": "throwProviderNotFoundError"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "throwProviderNotFoundError"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "SimpleChange"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "rememberChangeHistoryAndInvokeOnChangesHook"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "ngOnChangesSetInput"
+    },
+    {
+      "source": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "target": "getSimpleChangesStore"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "getSimpleChangesStore"
+    },
+    {
+      "source": "domRendererFactory3",
+      "target": "DOCUMENT"
+    },
+    {
+      "source": "domRendererFactory3",
+      "target": "DOCUMENT"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "DOCUMENT"
+    },
+    {
+      "source": "setUpAttributes",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "createElementNode",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "destroyLView",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "cleanUpView",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "nativeInsertBefore",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "nativeAppendChild",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "nativeParentNode",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "writeDirectStyle",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "writeDirectClass",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "domRendererFactory3"
+    },
+    {
+      "source": "getNativeByIndex",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "getNativeByTNode",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "cleanUpView",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "applyNodes",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "ViewRef",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "unwrapRNode"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getNativeByIndex"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "getNativeByIndex"
+    },
+    {
+      "source": "appendChild",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "appendChild",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "saveResolvedLocalsInData",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "addComponentLogic",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "createElementRef",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "getTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getTNode"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "renderComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "wrapListener",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "detectChangesInRootView",
+      "target": "readPatchedLView"
+    },
+    {
+      "source": "LifecycleHooksFeature",
+      "target": "readPatchedLView"
+    },
+    {
+      "source": "refreshView",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "getConstant"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "getConstant"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "getConstant"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "getConstant"
+    },
+    {
+      "source": "createLView",
+      "target": "resetPreOrderHookFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "resetPreOrderHookFlags"
+    },
+    {
+      "source": "detachMovedView",
+      "target": "updateTransplantedViewCount"
+    },
+    {
+      "source": "refreshView",
+      "target": "updateTransplantedViewCount"
+    },
+    {
+      "source": "refreshView",
+      "target": "updateTransplantedViewCount"
+    },
+    {
+      "source": "getLView",
+      "target": "instructionState"
+    },
+    {
+      "source": "getTView",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵrestoreView",
+      "target": "instructionState"
+    },
+    {
+      "source": "getCurrentTNodePlaceholderOk",
+      "target": "instructionState"
+    },
+    {
+      "source": "setCurrentTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "isCurrentTNodeParent",
+      "target": "instructionState"
+    },
+    {
+      "source": "isInCheckNoChangesMode",
+      "target": "instructionState"
+    },
+    {
+      "source": "setIsInCheckNoChangesMode",
+      "target": "instructionState"
+    },
+    {
+      "source": "nextBindingIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "setBindingRootForHostBindings",
+      "target": "instructionState"
+    },
+    {
+      "source": "setCurrentDirectiveIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "setCurrentQueryIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "enterDI",
+      "target": "instructionState"
+    },
+    {
+      "source": "enterView",
+      "target": "instructionState"
+    },
+    {
+      "source": "allocLFrame",
+      "target": "instructionState"
+    },
+    {
+      "source": "leaveViewLight",
+      "target": "instructionState"
+    },
+    {
+      "source": "leaveViewLight",
+      "target": "instructionState"
+    },
+    {
+      "source": "getSelectedIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "setSelectedIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "refreshView",
+      "target": "instructionState"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵnextContext",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵnextContext",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "instructionState"
+    },
+    {
+      "source": "createNodeInjector",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵadvance",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "getLView"
+    },
+    {
+      "source": "SWITCH_ELEMENT_REF_FACTORY",
+      "target": "getLView"
+    },
+    {
+      "source": "SWITCH_TEMPLATE_REF_FACTORY",
+      "target": "getLView"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "getLView"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "getLView"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "getLView"
+    },
+    {
+      "source": "ɵɵadvance",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTView"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getTView"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "getTView"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵrestoreView"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵrestoreView"
+    },
+    {
+      "source": "createNodeInjector",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "LifecycleHooksFeature",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "SWITCH_ELEMENT_REF_FACTORY",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "SWITCH_TEMPLATE_REF_FACTORY",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "getCurrentTNode",
+      "target": "getCurrentTNodePlaceholderOk"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "getCurrentTNodePlaceholderOk"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "isCurrentTNodeParent"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "isCurrentTNodeParent"
+    },
+    {
+      "source": "ɵɵadvance",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "refreshView",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "renderComponentOrTemplate",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "ViewRef",
+      "target": "setIsInCheckNoChangesMode"
+    },
+    {
+      "source": "ViewRef",
+      "target": "setIsInCheckNoChangesMode"
+    },
+    {
+      "source": "RootViewRef",
+      "target": "setIsInCheckNoChangesMode"
+    },
+    {
+      "source": "RootViewRef",
+      "target": "setIsInCheckNoChangesMode"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "nextBindingIndex"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "nextBindingIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "setBindingRootForHostBindings"
+    },
+    {
+      "source": "setBindingRootForHostBindings",
+      "target": "setCurrentDirectiveIndex"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "setCurrentDirectiveIndex"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "setCurrentDirectiveIndex"
+    },
+    {
+      "source": "refreshContentQueries",
+      "target": "setCurrentQueryIndex"
+    },
+    {
+      "source": "executeViewQueryFn",
+      "target": "setCurrentQueryIndex"
+    },
+    {
+      "source": "enterDI",
+      "target": "getDeclarationTNode"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "enterDI"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "enterDI"
+    },
+    {
+      "source": "renderView",
+      "target": "enterView"
+    },
+    {
+      "source": "refreshView",
+      "target": "enterView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "enterView"
+    },
+    {
+      "source": "enterDI",
+      "target": "allocLFrame"
+    },
+    {
+      "source": "enterView",
+      "target": "allocLFrame"
+    },
+    {
+      "source": "instructionState",
+      "target": "createLFrame"
+    },
+    {
+      "source": "allocLFrame",
+      "target": "createLFrame"
+    },
+    {
+      "source": "leaveDI",
+      "target": "leaveViewLight"
+    },
+    {
+      "source": "leaveView",
+      "target": "leaveViewLight"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "leaveDI"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "leaveDI"
+    },
+    {
+      "source": "renderView",
+      "target": "leaveView"
+    },
+    {
+      "source": "refreshView",
+      "target": "leaveView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "leaveView"
+    },
+    {
+      "source": "ɵɵadvance",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "getSelectedIndex"
+    },
+    {
+      "source": "selectIndexInternal",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "LifecycleHooksFeature",
+      "target": "registerPostOrderHooks"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "registerPostOrderHooks"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "registerPostOrderHooks"
+    },
+    {
+      "source": "selectIndexInternal",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "selectIndexInternal",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "executeCheckHooks",
+      "target": "callHooks"
+    },
+    {
+      "source": "executeInitAndCheckHooks",
+      "target": "callHooks"
+    },
+    {
+      "source": "callHooks",
+      "target": "callHook"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "NodeInjectorFactory"
+    },
+    {
+      "source": "cleanUpView",
+      "target": "NodeInjectorFactory"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "NodeInjectorFactory"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "setUpAttributes"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "setUpAttributes"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "setUpAttributes"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "setUpAttributes"
+    },
+    {
+      "source": "setUpAttributes",
+      "target": "isAnimationProp"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "isAnimationProp"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "mergeHostAttrs"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "mergeHostAttrs"
+    },
+    {
+      "source": "mergeHostAttrs",
+      "target": "mergeHostAttribute"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "hasParentInjector"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "hasParentInjector"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "getParentInjectorIndex"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getParentInjectorIndex"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getParentInjectorIndex"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getParentInjectorIndex"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "getParentInjectorView"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getParentInjectorView"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getParentInjectorView"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getParentInjectorView"
+    },
+    {
+      "source": "setIncludeViewProviders",
+      "target": "includeViewProviders"
+    },
+    {
+      "source": "setIncludeViewProviders",
+      "target": "includeViewProviders"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "includeViewProviders"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "setIncludeViewProviders"
+    },
+    {
+      "source": "getNodeInjectable",
+      "target": "setIncludeViewProviders"
+    },
+    {
+      "source": "diPublicInInjector",
+      "target": "nextNgElementId"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "getOrCreateNodeInjectorForNode"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "getOrCreateNodeInjectorForNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getOrCreateNodeInjectorForNode"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "insertBloom"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "insertBloom"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "insertBloom"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "getInjectorIndex"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getInjectorIndex"
+    },
+    {
+      "source": "getOrCreateNodeInjectorForNode",
+      "target": "getParentInjectorLocation"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "getParentInjectorLocation"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getParentInjectorLocation"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "diPublicInInjector"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "diPublicInInjector"
+    },
+    {
+      "source": "lookupTokenUsingModuleInjector",
+      "target": "notFoundValueOrThrow"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "notFoundValueOrThrow"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "lookupTokenUsingModuleInjector"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "lookupTokenUsingModuleInjector"
+    },
+    {
+      "source": "NodeInjector",
+      "target": "getOrCreateInjectable"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "getOrCreateInjectable"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "NOT_FOUND"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "NOT_FOUND"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "createNodeInjector"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "searchTokensOnInjector"
+    },
+    {
+      "source": "searchTokensOnInjector",
+      "target": "getNodeInjectable"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "getNodeInjectable"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getNodeInjectable"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "bloomHasToken"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "bloomHasToken"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "shouldSearchParent"
+    },
+    {
+      "source": "getOrCreateInjectable",
+      "target": "shouldSearchParent"
+    },
+    {
+      "source": "createNodeInjector",
+      "target": "NodeInjector"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "NodeInjector"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "NodeInjector"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "NodeInjector"
+    },
+    {
+      "source": "ComponentRef$1",
+      "target": "NodeInjector"
+    },
+    {
+      "source": "Inject",
+      "target": "makeParamDecorator"
+    },
+    {
+      "source": "Optional",
+      "target": "makeParamDecorator"
+    },
+    {
+      "source": "Self",
+      "target": "makeParamDecorator"
+    },
+    {
+      "source": "SkipSelf",
+      "target": "makeParamDecorator"
+    },
+    {
+      "source": "INJECTOR$1",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "INJECTOR_SCOPE",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "R3Injector",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "injectableDefOrInjectorDefFactory",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "SCHEDULER",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "APP_INITIALIZER",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "APP_ID",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "PLATFORM_INITIALIZER",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "PLATFORM_ID",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "APP_BOOTSTRAP_LISTENER",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "LOCALE_ID$1",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "DEFAULT_CURRENCY_CODE",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "ALLOW_MULTIPLE_PLATFORMS",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "DOCUMENT$1",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "TRANSITION_ID",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "EVENT_MANAGER_PLUGINS",
+      "target": "InjectionToken"
+    },
+    {
+      "source": "R3Injector",
+      "target": "deepForEach"
+    },
+    {
+      "source": "R3Injector",
+      "target": "deepForEach"
+    },
+    {
+      "source": "R3Injector",
+      "target": "deepForEach"
+    },
+    {
+      "source": "R3Injector",
+      "target": "deepForEach"
+    },
+    {
+      "source": "R3Injector",
+      "target": "deepForEach"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "addToArray"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "addToArray"
+    },
+    {
+      "source": "detachView",
+      "target": "removeFromArray"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "removeFromArray"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "removeFromArray"
+    },
+    {
+      "source": "collectStylingFromTAttrs",
+      "target": "keyValueArraySet"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "keyValueArrayGet"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "keyValueArrayGet"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "keyValueArrayGet"
+    },
+    {
+      "source": "keyValueArraySet",
+      "target": "keyValueArrayIndexOf"
+    },
+    {
+      "source": "keyValueArrayGet",
+      "target": "keyValueArrayIndexOf"
+    },
+    {
+      "source": "isStylingMatch",
+      "target": "keyValueArrayIndexOf"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "keyValueArrayIndexOf"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "keyValueArrayIndexOf"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Inject"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Inject"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Inject"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Optional"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Optional"
+    },
+    {
+      "source": "IterableDiffers",
+      "target": "Optional"
+    },
+    {
+      "source": "KeyValueDiffers",
+      "target": "Optional"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Optional"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Optional"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Self"
+    },
+    {
+      "source": "injectArgs",
+      "target": "Self"
+    },
+    {
+      "source": "injectArgs",
+      "target": "SkipSelf"
+    },
+    {
+      "source": "injectArgs",
+      "target": "SkipSelf"
+    },
+    {
+      "source": "IterableDiffers",
+      "target": "SkipSelf"
+    },
+    {
+      "source": "KeyValueDiffers",
+      "target": "SkipSelf"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "SkipSelf"
+    },
+    {
+      "source": "NullInjector",
+      "target": "THROW_IF_NOT_FOUND"
+    },
+    {
+      "source": "NullInjector",
+      "target": "THROW_IF_NOT_FOUND"
+    },
+    {
+      "source": "R3Injector",
+      "target": "THROW_IF_NOT_FOUND"
+    },
+    {
+      "source": "R3Injector",
+      "target": "THROW_IF_NOT_FOUND"
+    },
+    {
+      "source": "Injector",
+      "target": "THROW_IF_NOT_FOUND"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NEW_LINE"
+    },
+    {
+      "source": "isValueProvider",
+      "target": "USE_VALUE"
+    },
+    {
+      "source": "setCurrentInjector",
+      "target": "_currentInjector"
+    },
+    {
+      "source": "setCurrentInjector",
+      "target": "_currentInjector"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "_currentInjector"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "_currentInjector"
+    },
+    {
+      "source": "injectInjectorOnly",
+      "target": "_currentInjector"
+    },
+    {
+      "source": "R3Injector",
+      "target": "setCurrentInjector"
+    },
+    {
+      "source": "R3Injector",
+      "target": "setCurrentInjector"
+    },
+    {
+      "source": "ɵɵinject",
+      "target": "injectInjectorOnly"
+    },
+    {
+      "source": "injectArgs",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "injectArgs",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "R3Injector",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "Injector",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ɵɵdirectiveInject",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "Testability",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "ApplicationModule",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "EventManager",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "EventManager",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "DomSharedStylesHost",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "DomEventsPlugin",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "ɵɵinject"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectArgs"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectArgs"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectArgs"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getDebugContext"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getDebugContext"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getOriginalError"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getOriginalError"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getOriginalError"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "getOriginalError"
+    },
+    {
+      "source": "ErrorHandler",
+      "target": "defaultErrorLogger"
+    },
+    {
+      "source": "handleError",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "ErrorHandler"
+    },
+    {
+      "source": "applyNodes",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "SCHEDULER",
+      "target": "defaultScheduler"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "defaultScheduler"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "maybeUnwrapFn"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "maybeUnwrapFn"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "maybeUnwrapFn"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "RendererStyleFlags2"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "RendererStyleFlags2"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "RendererStyleFlags2"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "RendererStyleFlags2"
+    },
+    {
+      "source": "applyNodes",
+      "target": "icuContainerIterate"
+    },
+    {
+      "source": "ViewRef",
+      "target": "icuContainerIterate"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "icuContainerIterate"
+    },
+    {
+      "source": "markViewDirty",
+      "target": "getLViewParent"
+    },
+    {
+      "source": "ViewRef",
+      "target": "getLViewParent"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getLViewParent"
+    },
+    {
+      "source": "refreshView",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "getFirstLContainer",
+      "target": "getNearestLContainer"
+    },
+    {
+      "source": "getNextLContainer",
+      "target": "getNearestLContainer"
+    },
+    {
+      "source": "applyNodes",
+      "target": "applyToElementOrContainer"
+    },
+    {
+      "source": "applyNodes",
+      "target": "applyToElementOrContainer"
+    },
+    {
+      "source": "applyNodes",
+      "target": "applyToElementOrContainer"
+    },
+    {
+      "source": "applyNodes",
+      "target": "applyToElementOrContainer"
+    },
+    {
+      "source": "applyProjectionRecursive",
+      "target": "applyToElementOrContainer"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "createElementNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "createElementNode"
+    },
+    {
+      "source": "detachView",
+      "target": "detachMovedView"
+    },
+    {
+      "source": "cleanUpView",
+      "target": "detachMovedView"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "detachView"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "detachView"
+    },
+    {
+      "source": "ViewRef",
+      "target": "destroyLView"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "destroyLView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "cleanUpView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "cleanUpView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "cleanUpView"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "nativeInsertBefore"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "nativeInsertBefore"
+    },
+    {
+      "source": "nativeAppendOrInsertBefore",
+      "target": "nativeInsertBefore"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "nativeInsertBefore"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "nativeAppendChild"
+    },
+    {
+      "source": "nativeAppendOrInsertBefore",
+      "target": "nativeAppendChild"
+    },
+    {
+      "source": "appendChild",
+      "target": "nativeAppendOrInsertBefore"
+    },
+    {
+      "source": "appendChild",
+      "target": "nativeAppendOrInsertBefore"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "nativeParentNode"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "nativeParentNode"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "nativeParentNode"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "appendChild"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "appendChild"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "appendChild"
+    },
+    {
+      "source": "applyView",
+      "target": "applyNodes"
+    },
+    {
+      "source": "applyProjectionRecursive",
+      "target": "applyNodes"
+    },
+    {
+      "source": "applyToElementOrContainer",
+      "target": "applyView"
+    },
+    {
+      "source": "detachView",
+      "target": "applyView"
+    },
+    {
+      "source": "destroyLView",
+      "target": "applyView"
+    },
+    {
+      "source": "ViewRef",
+      "target": "applyView"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "applyView"
+    },
+    {
+      "source": "applyNodes",
+      "target": "applyProjectionRecursive"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "writeDirectStyle"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "writeDirectStyle"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "writeDirectClass"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "writeDirectClass"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "writeDirectClass"
+    },
+    {
+      "source": "isCssClassMatching",
+      "target": "classIndexOf"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "classIndexOf"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isCssClassMatching"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isInlineTemplate"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "isInlineTemplate"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "hasTagAndTypeMatch"
+    },
+    {
+      "source": "isNodeMatchingSelectorList",
+      "target": "isNodeMatchingSelector"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "stringifyCSSSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "stringifyCSSSelector",
+      "target": "isPositive"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "isPositive"
+    },
+    {
+      "source": "isNodeMatchingSelector",
+      "target": "findAttrIndexInNode"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "isNodeMatchingSelectorList"
+    },
+    {
+      "source": "stringifyCSSSelector",
+      "target": "maybeWrapInNotSelector"
+    },
+    {
+      "source": "stringifyCSSSelector",
+      "target": "maybeWrapInNotSelector"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "stringifyCSSSelector"
+    },
+    {
+      "source": "createTView",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵadvance"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵadvance"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵadvance"
+    },
+    {
+      "source": "ɵɵadvance",
+      "target": "selectIndexInternal"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "selectIndexInternal"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "toTStylingRange"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "toTStylingRange"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "toTStylingRange"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "toTStylingRange"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "getTStylingRangePrev"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "setTStylingRangePrevDuplicate"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "setTStylingRangePrevDuplicate"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "setTStylingRangePrevDuplicate"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "getTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "setTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "setTStylingRangeNext"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "setTStylingRangeNext"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "setTStylingRangeNextDuplicate"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "setTStylingRangeNextDuplicate"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "setTStylingRangeNextDuplicate"
+    },
+    {
+      "source": "renderView",
+      "target": "refreshContentQueries"
+    },
+    {
+      "source": "refreshView",
+      "target": "refreshContentQueries"
+    },
+    {
+      "source": "addComponentLogic",
+      "target": "createLView"
+    },
+    {
+      "source": "R3TemplateRef",
+      "target": "createLView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "createLView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "createLView"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "allocExpando"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "allocExpando"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "allocExpando"
+    },
+    {
+      "source": "renderComponentOrTemplate",
+      "target": "renderView"
+    },
+    {
+      "source": "renderComponent",
+      "target": "renderView"
+    },
+    {
+      "source": "R3TemplateRef",
+      "target": "renderView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "renderView"
+    },
+    {
+      "source": "renderComponentOrTemplate",
+      "target": "refreshView"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "refreshView"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "refreshView"
+    },
+    {
+      "source": "detectChangesInternal",
+      "target": "refreshView"
+    },
+    {
+      "source": "detectChangesInRootView",
+      "target": "renderComponentOrTemplate"
+    },
+    {
+      "source": "renderView",
+      "target": "executeTemplate"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeTemplate"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "createDirectivesInstances"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "createDirectivesInstances"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "saveResolvedLocalsInData"
+    },
+    {
+      "source": "addComponentLogic",
+      "target": "getOrCreateTComponentView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "getOrCreateTComponentView"
+    },
+    {
+      "source": "getOrCreateTComponentView",
+      "target": "createTView"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "createTView"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "createTView"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "generatePropertyAliases"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "generatePropertyAliases"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "resolveDirectives"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "resolveDirectives"
+    },
+    {
+      "source": "configureViewWithDirective",
+      "target": "registerHostBindingOpCodes"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "registerHostBindingOpCodes"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "invokeHostBindingsInCreationMode"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "invokeHostBindingsInCreationMode"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "markAsComponentHost"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "markAsComponentHost"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "saveNameToExportMap"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "initTNodeFlags"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "initTNodeFlags"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "configureViewWithDirective"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "configureViewWithDirective"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "addComponentLogic"
+    },
+    {
+      "source": "createDirectivesInstances",
+      "target": "setInputsFromAttrs"
+    },
+    {
+      "source": "resolveDirectives",
+      "target": "generateInitialInputs"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "createLContainer"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "createLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "refreshComponent"
+    },
+    {
+      "source": "renderView",
+      "target": "renderComponent"
+    },
+    {
+      "source": "addComponentLogic",
+      "target": "addToViewTree"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "addToViewTree"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "addToViewTree"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "addToViewTree"
+    },
+    {
+      "source": "wrapListener",
+      "target": "markViewDirty"
+    },
+    {
+      "source": "ViewRef",
+      "target": "markViewDirty"
+    },
+    {
+      "source": "ViewRef",
+      "target": "detectChangesInternal"
+    },
+    {
+      "source": "ViewRef",
+      "target": "detectChangesInternal"
+    },
+    {
+      "source": "RootViewRef",
+      "target": "detectChangesInRootView"
+    },
+    {
+      "source": "RootViewRef",
+      "target": "detectChangesInRootView"
+    },
+    {
+      "source": "renderView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "renderView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "CLEAN_PROMISE"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "getLCleanup"
+    },
+    {
+      "source": "ViewRef",
+      "target": "getLCleanup"
+    },
+    {
+      "source": "detectChangesInternal",
+      "target": "handleError"
+    },
+    {
+      "source": "executeListenerWithErrorHandling",
+      "target": "handleError"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "setInputsForProperty"
+    },
+    {
+      "source": "setDirectiveInputsWhichShadowsStyling",
+      "target": "setInputsForProperty"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "computeStaticStyling"
+    },
+    {
+      "source": "ɵɵelementStart",
+      "target": "computeStaticStyling"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "computeStaticStyling"
+    },
+    {
+      "source": "R3Injector",
+      "target": "INJECTOR$1"
+    },
+    {
+      "source": "Injector",
+      "target": "INJECTOR$1"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "INJECTOR$1"
+    },
+    {
+      "source": "getNullInjector",
+      "target": "NullInjector"
+    },
+    {
+      "source": "Injector",
+      "target": "NullInjector"
+    },
+    {
+      "source": "R3Injector",
+      "target": "INJECTOR_SCOPE"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "INJECTOR_SCOPE"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "INJECTOR_SCOPE"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NOT_YET"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NOT_YET"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NOT_YET"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NOT_YET"
+    },
+    {
+      "source": "R3Injector",
+      "target": "NOT_YET"
+    },
+    {
+      "source": "R3Injector",
+      "target": "CIRCULAR"
+    },
+    {
+      "source": "R3Injector",
+      "target": "EMPTY_ARRAY$1"
+    },
+    {
+      "source": "getNullInjector",
+      "target": "NULL_INJECTOR"
+    },
+    {
+      "source": "getNullInjector",
+      "target": "NULL_INJECTOR"
+    },
+    {
+      "source": "getNullInjector",
+      "target": "NULL_INJECTOR"
+    },
+    {
+      "source": "createInjectorWithoutInjectorInstances",
+      "target": "getNullInjector"
+    },
+    {
+      "source": "R3Injector",
+      "target": "getNullInjector"
+    },
+    {
+      "source": "INJECTOR_IMPL",
+      "target": "createInjectorWithoutInjectorInstances"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "createInjectorWithoutInjectorInstances"
+    },
+    {
+      "source": "createInjectorWithoutInjectorInstances",
+      "target": "R3Injector"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectableDefOrInjectorDefFactory"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectableDefOrInjectorDefFactory"
+    },
+    {
+      "source": "R3Injector",
+      "target": "injectableDefOrInjectorDefFactory"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "makeRecord"
+    },
+    {
+      "source": "R3Injector",
+      "target": "isValueProvider"
+    },
+    {
+      "source": "R3Injector",
+      "target": "isValueProvider"
+    },
+    {
+      "source": "R3Injector",
+      "target": "isTypeProvider"
+    },
+    {
+      "source": "R3Injector",
+      "target": "isTypeProvider"
+    },
+    {
+      "source": "R3Injector",
+      "target": "isTypeProvider"
+    },
+    {
+      "source": "Injector",
+      "target": "INJECTOR_IMPL"
+    },
+    {
+      "source": "Injector",
+      "target": "INJECTOR_IMPL"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "Injector"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "Injector"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "Injector"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "Injector"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "Injector"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Injector"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Injector"
+    },
+    {
+      "source": "platformCore",
+      "target": "Injector"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Injector"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "Injector"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "LifecycleHooksFeature"
+    },
+    {
+      "source": "getSymbolIterator",
+      "target": "_symbolIterator"
+    },
+    {
+      "source": "getSymbolIterator",
+      "target": "_symbolIterator"
+    },
+    {
+      "source": "getSymbolIterator",
+      "target": "_symbolIterator"
+    },
+    {
+      "source": "getSymbolIterator",
+      "target": "_symbolIterator"
+    },
+    {
+      "source": "isListLikeIterable",
+      "target": "getSymbolIterator"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "getSymbolIterator"
+    },
+    {
+      "source": "DefaultIterableDifferFactory",
+      "target": "isListLikeIterable"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "isListLikeIterable"
+    },
+    {
+      "source": "isListLikeIterable",
+      "target": "isJsObject"
+    },
+    {
+      "source": "DefaultKeyValueDifferFactory",
+      "target": "isJsObject"
+    },
+    {
+      "source": "DefaultKeyValueDiffer",
+      "target": "isJsObject"
+    },
+    {
+      "source": "ɵɵproperty",
+      "target": "bindingUpdated"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "bindingUpdated"
+    },
+    {
+      "source": "ɵɵtextInterpolate1",
+      "target": "bindingUpdated"
+    },
+    {
+      "source": "NgForOf",
+      "target": "ɵɵdirectiveInject"
+    },
+    {
+      "source": "NgForOf",
+      "target": "ɵɵdirectiveInject"
+    },
+    {
+      "source": "NgForOf",
+      "target": "ɵɵdirectiveInject"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵdirectiveInject"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵproperty"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "setDirectiveInputsWhichShadowsStyling"
+    },
+    {
+      "source": "ɵɵelementEnd",
+      "target": "setDirectiveInputsWhichShadowsStyling"
+    },
+    {
+      "source": "ɵɵelement",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵelementStart"
+    },
+    {
+      "source": "ɵɵelement",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ɵɵelementEnd"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelement"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵelement"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "isPromise"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "isPromise"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵlistener"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵlistener"
+    },
+    {
+      "source": "wrapListener",
+      "target": "executeListenerWithErrorHandling"
+    },
+    {
+      "source": "wrapListener",
+      "target": "executeListenerWithErrorHandling"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "wrapListener"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "wrapListener"
+    },
+    {
+      "source": "ɵɵlistener",
+      "target": "wrapListener"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵnextContext"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵnextContext"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵnextContext"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "EMPTY_ARRAY$2"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "markDuplicates"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "markDuplicates"
+    },
+    {
+      "source": "markDuplicates",
+      "target": "isStylingMatch"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵclassProp"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromDirectives"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromDirectives"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromDirectives"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromTAttrs"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromTAttrs"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromTAttrs"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "collectStylingFromTAttrs"
+    },
+    {
+      "source": "collectStylingFromDirectives",
+      "target": "collectStylingFromTAttrs"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "findStylingValue"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "findStylingValue"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "isStylingValuePresent"
+    },
+    {
+      "source": "ɵɵclassProp",
+      "target": "isStylingValuePresent"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "isStylingValuePresent"
+    },
+    {
+      "source": "findStylingValue",
+      "target": "isStylingValuePresent"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵtext"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵtext"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵtextInterpolate"
+    },
+    {
+      "source": "JsWebFrameworksComponent_tr_2_Template",
+      "target": "ɵɵtextInterpolate"
+    },
+    {
+      "source": "ɵɵtextInterpolate",
+      "target": "ɵɵtextInterpolate1"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "localeEn",
+      "target": "u"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "localeEn"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "LOCALE_DATA"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "LOCALE_DATA"
+    },
+    {
+      "source": "getLocaleData",
+      "target": "LOCALE_DATA"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "getLocaleData"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "getLocaleData"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "LocaleDataIndex"
+    },
+    {
+      "source": "setLocaleId",
+      "target": "LOCALE_ID"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "setLocaleId"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "setLocaleId"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "setLocaleId"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "ComponentFactory"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ComponentFactory"
+    },
+    {
+      "source": "ComponentFactoryResolver",
+      "target": "_NullComponentFactoryResolver"
+    },
+    {
+      "source": "ComponentFactoryResolver$1",
+      "target": "ComponentFactoryResolver"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "ComponentFactoryResolver"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ComponentFactoryResolver"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ComponentFactoryResolver"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "noop"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "noop"
+    },
+    {
+      "source": "NgZone",
+      "target": "noop"
+    },
+    {
+      "source": "NgZone",
+      "target": "noop"
+    },
+    {
+      "source": "SWITCH_ELEMENT_REF_FACTORY",
+      "target": "createElementRef"
+    },
+    {
+      "source": "SWITCH_TEMPLATE_REF_FACTORY",
+      "target": "createElementRef"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "createElementRef"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "createElementRef"
+    },
+    {
+      "source": "ElementRef",
+      "target": "SWITCH_ELEMENT_REF_FACTORY"
+    },
+    {
+      "source": "createElementRef",
+      "target": "ElementRef"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "RendererFactory2"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "RendererFactory2"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "Sanitizer"
+    },
+    {
+      "source": "VERSION",
+      "target": "Version"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "VERSION"
+    },
+    {
+      "source": "defaultIterableDiffersFactory",
+      "target": "DefaultIterableDifferFactory"
+    },
+    {
+      "source": "defaultIterableDiffers",
+      "target": "DefaultIterableDifferFactory"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "trackByIdentity"
+    },
+    {
+      "source": "DefaultIterableDifferFactory",
+      "target": "DefaultIterableDiffer"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "IterableChangeRecord_"
+    },
+    {
+      "source": "_DuplicateMap",
+      "target": "_DuplicateItemRecordList"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "_DuplicateMap"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "_DuplicateMap"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "getPreviousIndex"
+    },
+    {
+      "source": "DefaultIterableDiffer",
+      "target": "getPreviousIndex"
+    },
+    {
+      "source": "defaultKeyValueDiffersFactory",
+      "target": "DefaultKeyValueDifferFactory"
+    },
+    {
+      "source": "keyValDiff",
+      "target": "DefaultKeyValueDifferFactory"
+    },
+    {
+      "source": "DefaultKeyValueDifferFactory",
+      "target": "DefaultKeyValueDiffer"
+    },
+    {
+      "source": "DefaultKeyValueDiffer",
+      "target": "KeyValueChangeRecord_"
+    },
+    {
+      "source": "IterableDiffers",
+      "target": "defaultIterableDiffersFactory"
+    },
+    {
+      "source": "IterableDiffers",
+      "target": "defaultIterableDiffersFactory"
+    },
+    {
+      "source": "defaultIterableDiffersFactory",
+      "target": "IterableDiffers"
+    },
+    {
+      "source": "defaultIterableDiffers",
+      "target": "IterableDiffers"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "IterableDiffers"
+    },
+    {
+      "source": "NgForOf",
+      "target": "IterableDiffers"
+    },
+    {
+      "source": "KeyValueDiffers",
+      "target": "defaultKeyValueDiffersFactory"
+    },
+    {
+      "source": "KeyValueDiffers",
+      "target": "defaultKeyValueDiffersFactory"
+    },
+    {
+      "source": "defaultKeyValueDiffersFactory",
+      "target": "KeyValueDiffers"
+    },
+    {
+      "source": "defaultKeyValueDiffers",
+      "target": "KeyValueDiffers"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "KeyValueDiffers"
+    },
+    {
+      "source": "RootViewRef",
+      "target": "ViewRef"
+    },
+    {
+      "source": "R3TemplateRef",
+      "target": "ViewRef"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "ViewRef"
+    },
+    {
+      "source": "ComponentRef$1",
+      "target": "RootViewRef"
+    },
+    {
+      "source": "defaultKeyValueDiffers",
+      "target": "keyValDiff"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "defaultIterableDiffers"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "defaultKeyValueDiffers"
+    },
+    {
+      "source": "TemplateRef",
+      "target": "SWITCH_TEMPLATE_REF_FACTORY"
+    },
+    {
+      "source": "ViewEngineTemplateRef",
+      "target": "TemplateRef"
+    },
+    {
+      "source": "NgForOf",
+      "target": "TemplateRef"
+    },
+    {
+      "source": "R3TemplateRef",
+      "target": "ViewEngineTemplateRef"
+    },
+    {
+      "source": "SWITCH_TEMPLATE_REF_FACTORY",
+      "target": "R3TemplateRef"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "NgModuleRef"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "NgModuleRef"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "NgModuleRef"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "NgModuleRef"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "NgModuleRef"
+    },
+    {
+      "source": "ViewContainerRef",
+      "target": "SWITCH_VIEW_CONTAINER_REF_FACTORY"
+    },
+    {
+      "source": "VE_ViewContainerRef",
+      "target": "ViewContainerRef"
+    },
+    {
+      "source": "NgForOf",
+      "target": "ViewContainerRef"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "VE_ViewContainerRef"
+    },
+    {
+      "source": "SWITCH_VIEW_CONTAINER_REF_FACTORY",
+      "target": "R3ViewContainerRef"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getViewRefs"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getViewRefs"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getOrCreateViewRefs"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getOrCreateViewRefs"
+    },
+    {
+      "source": "R3ViewContainerRef",
+      "target": "getOrCreateViewRefs"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR"
+    },
+    {
+      "source": "NgModuleRef$1",
+      "target": "ComponentFactoryResolver$1"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "toRefArray"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "toRefArray"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "SCHEDULER"
+    },
+    {
+      "source": "ComponentFactoryResolver$1",
+      "target": "ComponentFactory$1"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "ComponentFactory$1"
+    },
+    {
+      "source": "ComponentFactory$1",
+      "target": "ComponentRef$1"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "modules"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "modules"
+    },
+    {
+      "source": "NgModuleFactory$1",
+      "target": "NgModuleRef$1"
+    },
+    {
+      "source": "Compiler_compileModuleSync__POST_R3__",
+      "target": "NgModuleFactory$1"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "NgModuleFactory$1"
+    },
+    {
+      "source": "JsWebFrameworksModuleNgFactory",
+      "target": "NgModuleFactory$1"
+    },
+    {
+      "source": "__extends",
+      "target": "extendStatics"
+    },
+    {
+      "source": "Subscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "SubjectSubscription",
+      "target": "__extends"
+    },
+    {
+      "source": "SubjectSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "Subject",
+      "target": "__extends"
+    },
+    {
+      "source": "AnonymousSubject",
+      "target": "__extends"
+    },
+    {
+      "source": "RefCountSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "__extends"
+    },
+    {
+      "source": "ConnectableSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "MapSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "OuterSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "InnerSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "__extends"
+    },
+    {
+      "source": "Subscription",
+      "target": "isFunction"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "isFunction"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "isFunction"
+    },
+    {
+      "source": "config",
+      "target": "_enable_super_gross_mode_that_will_cause_bad_things"
+    },
+    {
+      "source": "config",
+      "target": "_enable_super_gross_mode_that_will_cause_bad_things"
+    },
+    {
+      "source": "empty",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "config"
+    },
+    {
+      "source": "Observable",
+      "target": "config"
+    },
+    {
+      "source": "Observable",
+      "target": "config"
+    },
+    {
+      "source": "Observable",
+      "target": "config"
+    },
+    {
+      "source": "empty",
+      "target": "hostReportError"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "hostReportError"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "hostReportError"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "hostReportError"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "hostReportError"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "hostReportError"
+    },
+    {
+      "source": "Subscriber",
+      "target": "empty"
+    },
+    {
+      "source": "Subscriber",
+      "target": "empty"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "empty"
+    },
+    {
+      "source": "Observable",
+      "target": "empty"
+    },
+    {
+      "source": "Subscription",
+      "target": "isArray"
+    },
+    {
+      "source": "Subscription",
+      "target": "isObject"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "isObject"
+    },
+    {
+      "source": "Subscription",
+      "target": "UnsubscriptionError"
+    },
+    {
+      "source": "Subscription",
+      "target": "UnsubscriptionError"
+    },
+    {
+      "source": "Subscription",
+      "target": "UnsubscriptionError"
+    },
+    {
+      "source": "flattenUnsubscriptionErrors",
+      "target": "UnsubscriptionError"
+    },
+    {
+      "source": "Subscriber",
+      "target": "Subscription"
+    },
+    {
+      "source": "SubjectSubscription",
+      "target": "Subscription"
+    },
+    {
+      "source": "Subject",
+      "target": "Subscription"
+    },
+    {
+      "source": "Subject",
+      "target": "Subscription"
+    },
+    {
+      "source": "AnonymousSubject",
+      "target": "Subscription"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "Subscription"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "Subscription"
+    },
+    {
+      "source": "fromArray",
+      "target": "Subscription"
+    },
+    {
+      "source": "EventEmitter",
+      "target": "Subscription"
+    },
+    {
+      "source": "Subscription",
+      "target": "flattenUnsubscriptionErrors"
+    },
+    {
+      "source": "Subscription",
+      "target": "flattenUnsubscriptionErrors"
+    },
+    {
+      "source": "Subscriber",
+      "target": "rxSubscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "rxSubscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "rxSubscriber"
+    },
+    {
+      "source": "Subject",
+      "target": "rxSubscriber"
+    },
+    {
+      "source": "SafeSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "Subscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "Subscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "Subscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "Subscriber"
+    },
+    {
+      "source": "SubjectSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "RefCountSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "MapSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "OuterSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "InnerSubscriber",
+      "target": "Subscriber"
+    },
+    {
+      "source": "Subscriber",
+      "target": "SafeSubscriber"
+    },
+    {
+      "source": "Subscriber",
+      "target": "SafeSubscriber"
+    },
+    {
+      "source": "Observable",
+      "target": "observable"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "observable"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "observable"
+    },
+    {
+      "source": "pipeFromArray",
+      "target": "noop$1"
+    },
+    {
+      "source": "Observable",
+      "target": "pipeFromArray"
+    },
+    {
+      "source": "Subject",
+      "target": "Observable"
+    },
+    {
+      "source": "Subject",
+      "target": "Observable"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "Observable"
+    },
+    {
+      "source": "fromArray",
+      "target": "Observable"
+    },
+    {
+      "source": "fromArray",
+      "target": "Observable"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "Observable"
+    },
+    {
+      "source": "mergeAll",
+      "target": "Observable"
+    },
+    {
+      "source": "mergeAll",
+      "target": "Observable"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Observable"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Observable"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Observable"
+    },
+    {
+      "source": "Observable",
+      "target": "getPromiseCtor"
+    },
+    {
+      "source": "Observable",
+      "target": "getPromiseCtor"
+    },
+    {
+      "source": "Subject",
+      "target": "ObjectUnsubscribedError"
+    },
+    {
+      "source": "Subject",
+      "target": "ObjectUnsubscribedError"
+    },
+    {
+      "source": "Subject",
+      "target": "ObjectUnsubscribedError"
+    },
+    {
+      "source": "Subject",
+      "target": "ObjectUnsubscribedError"
+    },
+    {
+      "source": "Subject",
+      "target": "ObjectUnsubscribedError"
+    },
+    {
+      "source": "Subject",
+      "target": "SubjectSubscription"
+    },
+    {
+      "source": "Subject",
+      "target": "SubjectSubscriber"
+    },
+    {
+      "source": "ConnectableSubscriber",
+      "target": "SubjectSubscriber"
+    },
+    {
+      "source": "AnonymousSubject",
+      "target": "Subject"
+    },
+    {
+      "source": "EventEmitter",
+      "target": "Subject"
+    },
+    {
+      "source": "shareSubjectFactory",
+      "target": "Subject"
+    },
+    {
+      "source": "Subject",
+      "target": "AnonymousSubject"
+    },
+    {
+      "source": "Subject",
+      "target": "AnonymousSubject"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "refCount"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "refCount"
+    },
+    {
+      "source": "refCount",
+      "target": "RefCountOperator"
+    },
+    {
+      "source": "RefCountOperator",
+      "target": "RefCountSubscriber"
+    },
+    {
+      "source": "connectableObservableDescriptor",
+      "target": "ConnectableObservable"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "connectableObservableDescriptor"
+    },
+    {
+      "source": "ConnectableObservable",
+      "target": "ConnectableSubscriber"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "isScheduler"
+    },
+    {
+      "source": "fromArray",
+      "target": "subscribeToArray"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "subscribeToArray"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "fromArray"
+    },
+    {
+      "source": "mergeAll",
+      "target": "identity"
+    },
+    {
+      "source": "mergeAll",
+      "target": "MapOperator"
+    },
+    {
+      "source": "MapOperator",
+      "target": "MapSubscriber"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "OuterSubscriber"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "InnerSubscriber"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "InnerSubscriber"
+    },
+    {
+      "source": "iterator",
+      "target": "getSymbolIterator$1"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "iterator"
+    },
+    {
+      "source": "subscribeTo",
+      "target": "iterator"
+    },
+    {
+      "source": "MergeMapSubscriber",
+      "target": "subscribeTo"
+    },
+    {
+      "source": "mergeAll",
+      "target": "subscribeTo"
+    },
+    {
+      "source": "mergeAll",
+      "target": "MergeMapOperator"
+    },
+    {
+      "source": "MergeMapOperator",
+      "target": "MergeMapSubscriber"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "mergeAll"
+    },
+    {
+      "source": "NgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NoopNgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NoopNgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NoopNgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "NoopNgZone",
+      "target": "EventEmitter"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "shareSubjectFactory"
+    },
+    {
+      "source": "ApplicationInitStatus",
+      "target": "APP_INITIALIZER"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "APP_INITIALIZER"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "APP_INITIALIZER"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "ApplicationInitStatus"
+    },
+    {
+      "source": "APP_ID_RANDOM_PROVIDER",
+      "target": "APP_ID"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "APP_ID"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "APP_ID"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "APP_ID"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "APP_ID"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "APP_ID_RANDOM_PROVIDER"
+    },
+    {
+      "source": "APP_ID_RANDOM_PROVIDER",
+      "target": "_randomChar"
+    },
+    {
+      "source": "APP_ID_RANDOM_PROVIDER",
+      "target": "_randomChar"
+    },
+    {
+      "source": "APP_ID_RANDOM_PROVIDER",
+      "target": "_randomChar"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "PLATFORM_INITIALIZER"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "PLATFORM_INITIALIZER"
+    },
+    {
+      "source": "platformCore",
+      "target": "PLATFORM_ID"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "PLATFORM_ID"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "PLATFORM_ID"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "APP_BOOTSTRAP_LISTENER"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "LOCALE_ID$1"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "LOCALE_ID$1"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "LOCALE_ID$1"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "LOCALE_ID$1"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "DEFAULT_CURRENCY_CODE"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "ModuleWithComponentFactories"
+    },
+    {
+      "source": "Compiler_compileModuleSync",
+      "target": "Compiler_compileModuleSync__POST_R3__"
+    },
+    {
+      "source": "Compiler_compileModuleAsync",
+      "target": "Compiler_compileModuleSync__POST_R3__"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync__POST_R3__",
+      "target": "Compiler_compileModuleSync__POST_R3__"
+    },
+    {
+      "source": "Compiler",
+      "target": "Compiler_compileModuleSync"
+    },
+    {
+      "source": "Compiler",
+      "target": "Compiler_compileModuleAsync"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsSync",
+      "target": "Compiler_compileModuleAndAllComponentsSync__POST_R3__"
+    },
+    {
+      "source": "Compiler_compileModuleAndAllComponentsAsync",
+      "target": "Compiler_compileModuleAndAllComponentsSync__POST_R3__"
+    },
+    {
+      "source": "Compiler",
+      "target": "Compiler_compileModuleAndAllComponentsSync"
+    },
+    {
+      "source": "Compiler",
+      "target": "Compiler_compileModuleAndAllComponentsAsync"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Compiler"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "Compiler"
+    },
+    {
+      "source": "scheduleMicroTask",
+      "target": "promise"
+    },
+    {
+      "source": "Testability",
+      "target": "scheduleMicroTask"
+    },
+    {
+      "source": "Testability",
+      "target": "scheduleMicroTask"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "scheduleMicroTask"
+    },
+    {
+      "source": "Testability",
+      "target": "NgZone"
+    },
+    {
+      "source": "Testability",
+      "target": "NgZone"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "NgZone"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "NgZone"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "NgZone"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "NgZone"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "NgZone"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "NgZone"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "NgZone"
+    },
+    {
+      "source": "EventManager",
+      "target": "NgZone"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "NgZone"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "NgZone"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "NgZone"
+    },
+    {
+      "source": "NgZone",
+      "target": "EMPTY_PAYLOAD"
+    },
+    {
+      "source": "NgZone",
+      "target": "checkStable"
+    },
+    {
+      "source": "NgZone",
+      "target": "checkStable"
+    },
+    {
+      "source": "onLeave",
+      "target": "checkStable"
+    },
+    {
+      "source": "NgZone",
+      "target": "updateMicroTaskStatus"
+    },
+    {
+      "source": "NgZone",
+      "target": "updateMicroTaskStatus"
+    },
+    {
+      "source": "NgZone",
+      "target": "updateMicroTaskStatus"
+    },
+    {
+      "source": "NgZone",
+      "target": "onEnter"
+    },
+    {
+      "source": "NgZone",
+      "target": "onEnter"
+    },
+    {
+      "source": "NgZone",
+      "target": "onLeave"
+    },
+    {
+      "source": "NgZone",
+      "target": "onLeave"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "NoopNgZone"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "Testability"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "Testability"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "Testability"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "TestabilityRegistry"
+    },
+    {
+      "source": "platformCore",
+      "target": "TestabilityRegistry"
+    },
+    {
+      "source": "_testabilityGetter",
+      "target": "_NoopGetTestability"
+    },
+    {
+      "source": "TestabilityRegistry",
+      "target": "_testabilityGetter"
+    },
+    {
+      "source": "TestabilityRegistry",
+      "target": "_testabilityGetter"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "_testabilityGetter"
+    },
+    {
+      "source": "isDevMode",
+      "target": "_devMode"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "_devMode"
+    },
+    {
+      "source": "isDevMode",
+      "target": "_runModeLocked"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "_runModeLocked"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "isDevMode"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "isDevMode"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "_platform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "_platform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "_platform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "_platform"
+    },
+    {
+      "source": "getPlatform",
+      "target": "_platform"
+    },
+    {
+      "source": "getPlatform",
+      "target": "_platform"
+    },
+    {
+      "source": "getPlatform",
+      "target": "_platform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "ALLOW_MULTIPLE_PLATFORMS"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "ALLOW_MULTIPLE_PLATFORMS"
+    },
+    {
+      "source": "platformCore",
+      "target": "createPlatformFactory"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "createPlatformFactory"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "getPlatform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "getPlatform"
+    },
+    {
+      "source": "createPlatformFactory",
+      "target": "PlatformRef"
+    },
+    {
+      "source": "platformCore",
+      "target": "PlatformRef"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "optionsReducer"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "APPLICATION_MODULE_PROVIDERS",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "ApplicationModule",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "ApplicationRef"
+    },
+    {
+      "source": "PlatformRef",
+      "target": "remove"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "remove"
+    },
+    {
+      "source": "ApplicationRef",
+      "target": "remove"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "platformCore"
+    },
+    {
+      "source": "ApplicationModule",
+      "target": "APPLICATION_MODULE_PROVIDERS"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "ApplicationModule"
+    },
+    {
+      "source": "getDOM",
+      "target": "_DOM"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "_DOM"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "_DOM"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "getDOM"
+    },
+    {
+      "source": "BrowserGetTestability",
+      "target": "getDOM"
+    },
+    {
+      "source": "EventManagerPlugin",
+      "target": "getDOM"
+    },
+    {
+      "source": "DomSharedStylesHost",
+      "target": "getDOM"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "getDOM"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "DomSharedStylesHost",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "DomEventsPlugin",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DOCUMENT$1"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "Plural"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "Plural"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "Plural"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "Plural"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "Plural"
+    },
+    {
+      "source": "NgLocaleLocalization",
+      "target": "NgLocalization"
+    },
+    {
+      "source": "CommonModule",
+      "target": "NgLocalization"
+    },
+    {
+      "source": "CommonModule",
+      "target": "NgLocaleLocalization"
+    },
+    {
+      "source": "NgForOf",
+      "target": "NgForOfContext"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "NgForOf"
+    },
+    {
+      "source": "NgForOf",
+      "target": "RecordViewTuple"
+    },
+    {
+      "source": "NgForOf",
+      "target": "RecordViewTuple"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "CommonModule"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "BrowserDomAdapter"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "urlParsingNode"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "baseElement"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "baseElement"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "baseElement"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "baseElement"
+    },
+    {
+      "source": "BrowserDomAdapter",
+      "target": "baseElement"
+    },
+    {
+      "source": "SERVER_TRANSITION_PROVIDERS",
+      "target": "TRANSITION_ID"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "TRANSITION_ID"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "SERVER_TRANSITION_PROVIDERS"
+    },
+    {
+      "source": "platformBrowser",
+      "target": "BrowserGetTestability"
+    },
+    {
+      "source": "EventManager",
+      "target": "EVENT_MANAGER_PLUGINS"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EVENT_MANAGER_PLUGINS"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EVENT_MANAGER_PLUGINS"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EVENT_MANAGER_PLUGINS"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "EventManager"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EventManager"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EventManager"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "EventManager"
+    },
+    {
+      "source": "DomEventsPlugin",
+      "target": "EventManagerPlugin"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "EventManagerPlugin"
+    },
+    {
+      "source": "DomSharedStylesHost",
+      "target": "SharedStylesHost"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "SharedStylesHost"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "DomSharedStylesHost"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomSharedStylesHost"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomSharedStylesHost"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomSharedStylesHost"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomSharedStylesHost"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "NAMESPACE_URIS"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "NAMESPACE_URIS"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "NAMESPACE_URIS"
+    },
+    {
+      "source": "flattenStyles",
+      "target": "COMPONENT_REGEX"
+    },
+    {
+      "source": "EmulatedEncapsulationDomRenderer2",
+      "target": "COMPONENT_REGEX"
+    },
+    {
+      "source": "EmulatedEncapsulationDomRenderer2",
+      "target": "COMPONENT_REGEX"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "flattenStyles"
+    },
+    {
+      "source": "EmulatedEncapsulationDomRenderer2",
+      "target": "flattenStyles"
+    },
+    {
+      "source": "ShadowDomRenderer",
+      "target": "flattenStyles"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "decoratePreventDefault"
+    },
+    {
+      "source": "DefaultDomRenderer2",
+      "target": "decoratePreventDefault"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomRendererFactory2"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomRendererFactory2"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomRendererFactory2"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "DefaultDomRenderer2"
+    },
+    {
+      "source": "EmulatedEncapsulationDomRenderer2",
+      "target": "DefaultDomRenderer2"
+    },
+    {
+      "source": "ShadowDomRenderer",
+      "target": "DefaultDomRenderer2"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "EmulatedEncapsulationDomRenderer2"
+    },
+    {
+      "source": "DomRendererFactory2",
+      "target": "ShadowDomRenderer"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "DomEventsPlugin"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "MODIFIER_KEYS"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "MODIFIER_KEYS"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "_keyMap"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "_chromeNumKeyPadMap"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "_chromeNumKeyPadMap"
+    },
+    {
+      "source": "KeyEventsPlugin",
+      "target": "MODIFIER_KEY_GETTERS"
+    },
+    {
+      "source": "BROWSER_MODULE_PROVIDERS",
+      "target": "KeyEventsPlugin"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "platformBrowser"
+    },
+    {
+      "source": "BrowserModule",
+      "target": "BROWSER_MODULE_PROVIDERS"
+    },
+    {
+      "source": "JsWebFrameworksModule",
+      "target": "BrowserModule"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "bindAction"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "bindAction"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "bindAction"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "bindAction"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "bindAction"
+    },
+    {
+      "source": "buildData",
+      "target": "_random"
+    },
+    {
+      "source": "buildData",
+      "target": "_random"
+    },
+    {
+      "source": "buildData",
+      "target": "_random"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "buildData"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "buildData"
+    },
+    {
+      "source": "buildData",
+      "target": "ADJECTIVES"
+    },
+    {
+      "source": "buildData",
+      "target": "ADJECTIVES"
+    },
+    {
+      "source": "buildData",
+      "target": "COLOURS"
+    },
+    {
+      "source": "buildData",
+      "target": "COLOURS"
+    },
+    {
+      "source": "buildData",
+      "target": "NOUNS"
+    },
+    {
+      "source": "buildData",
+      "target": "NOUNS"
+    },
+    {
+      "source": "JsWebFrameworksComponent",
+      "target": "JsWebFrameworksComponent_tr_2_Template"
+    },
+    {
+      "source": "JsWebFrameworksModule",
+      "target": "JsWebFrameworksComponent"
+    },
+    {
+      "source": "JsWebFrameworksModuleNgFactory",
+      "target": "JsWebFrameworksModule"
+    },
+    {
+      "source": "exp#: !(function () {\n  if (_runModeLocked) throw new Er",
+      "target": "JsWebFrameworksModuleNgFactory"
+    }
+  ]
+}

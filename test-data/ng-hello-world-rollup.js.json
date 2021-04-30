@@ -1,0 +1,1286 @@
+{
+  "nodes": [
+    {
+      "id": "getClosureSafeProperty",
+      "name": "getClosureSafeProperty",
+      "val": 251,
+      "entryPoint": false
+    },
+    {
+      "id": "concatStringsWithSpace",
+      "name": "concatStringsWithSpace",
+      "val": 215,
+      "entryPoint": false
+    },
+    {
+      "id": "InjectFlags",
+      "name": "InjectFlags",
+      "val": 365,
+      "entryPoint": false
+    },
+    {
+      "id": "_injectImplementation",
+      "name": "_injectImplementation",
+      "val": 26,
+      "entryPoint": false
+    },
+    {
+      "id": "setInjectImplementation",
+      "name": "setInjectImplementation",
+      "val": 136,
+      "entryPoint": false
+    },
+    {
+      "id": "ChangeDetectionStrategy",
+      "name": "ChangeDetectionStrategy",
+      "val": 293,
+      "entryPoint": false
+    },
+    {
+      "id": "ViewEncapsulation",
+      "name": "ViewEncapsulation",
+      "val": 323,
+      "entryPoint": false
+    },
+    {
+      "id": "__globalThis",
+      "name": "__globalThis",
+      "val": 68,
+      "entryPoint": false
+    },
+    {
+      "id": "__window",
+      "name": "__window",
+      "val": 52,
+      "entryPoint": false
+    },
+    {
+      "id": "__self",
+      "name": "__self",
+      "val": 142,
+      "entryPoint": false
+    },
+    {
+      "id": "__global",
+      "name": "__global",
+      "val": 52,
+      "entryPoint": false
+    },
+    {
+      "id": "_global",
+      "name": "_global",
+      "val": 59,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_OBJ",
+      "name": "EMPTY_OBJ",
+      "val": 17,
+      "entryPoint": false
+    },
+    {
+      "id": "EMPTY_ARRAY",
+      "name": "EMPTY_ARRAY",
+      "val": 19,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_COMP_DEF",
+      "name": "NG_COMP_DEF",
+      "val": 80,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_DIR_DEF",
+      "name": "NG_DIR_DEF",
+      "val": 79,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_PIPE_DEF",
+      "name": "NG_PIPE_DEF",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_FACTORY_DEF",
+      "name": "NG_FACTORY_DEF",
+      "val": 83,
+      "entryPoint": false
+    },
+    {
+      "id": "NG_ELEMENT_ID",
+      "name": "NG_ELEMENT_ID",
+      "val": 95,
+      "entryPoint": false
+    },
+    {
+      "id": "_renderCompCount",
+      "name": "_renderCompCount",
+      "val": 25,
+      "entryPoint": false
+    },
+    {
+      "id": "extractDirectiveDef",
+      "name": "extractDirectiveDef",
+      "val": 159,
+      "entryPoint": false
+    },
+    {
+      "id": "extractPipeDef",
+      "name": "extractPipeDef",
+      "val": 112,
+      "entryPoint": false
+    },
+    {
+      "id": "invertObject",
+      "name": "invertObject",
+      "val": 488,
+      "entryPoint": false
+    },
+    {
+      "id": "getComponentDef",
+      "name": "getComponentDef",
+      "val": 71,
+      "entryPoint": false
+    },
+    {
+      "id": "RuntimeError",
+      "name": "RuntimeError",
+      "val": 234,
+      "entryPoint": false
+    },
+    {
+      "id": "SimpleChange",
+      "name": "SimpleChange",
+      "val": 263,
+      "entryPoint": false
+    },
+    {
+      "id": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "name": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "val": 471,
+      "entryPoint": false
+    },
+    {
+      "id": "ngOnChangesSetInput",
+      "name": "ngOnChangesSetInput",
+      "val": 717,
+      "entryPoint": false
+    },
+    {
+      "id": "getSimpleChangesStore",
+      "name": "getSimpleChangesStore",
+      "val": 92,
+      "entryPoint": false
+    },
+    {
+      "id": "isProceduralRenderer",
+      "name": "isProceduralRenderer",
+      "val": 73,
+      "entryPoint": false
+    },
+    {
+      "id": "domRendererFactory3",
+      "name": "domRendererFactory3",
+      "val": 169,
+      "entryPoint": false
+    },
+    {
+      "id": "getNativeByTNode",
+      "name": "getNativeByTNode",
+      "val": 170,
+      "entryPoint": false
+    },
+    {
+      "id": "getComponentLViewByIndex",
+      "name": "getComponentLViewByIndex",
+      "val": 238,
+      "entryPoint": false
+    },
+    {
+      "id": "viewAttachedToChangeDetector",
+      "name": "viewAttachedToChangeDetector",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "resetPreOrderHookFlags",
+      "name": "resetPreOrderHookFlags",
+      "val": 60,
+      "entryPoint": false
+    },
+    {
+      "id": "updateTransplantedViewCount",
+      "name": "updateTransplantedViewCount",
+      "val": 368,
+      "entryPoint": false
+    },
+    {
+      "id": "instructionState",
+      "name": "instructionState",
+      "val": 112,
+      "entryPoint": false
+    },
+    {
+      "id": "getCurrentTNode",
+      "name": "getCurrentTNode",
+      "val": 205,
+      "entryPoint": false
+    },
+    {
+      "id": "getCurrentTNodePlaceholderOk",
+      "name": "getCurrentTNodePlaceholderOk",
+      "val": 91,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentTNode",
+      "name": "setCurrentTNode",
+      "val": 151,
+      "entryPoint": false
+    },
+    {
+      "id": "isInCheckNoChangesMode",
+      "name": "isInCheckNoChangesMode",
+      "val": 88,
+      "entryPoint": false
+    },
+    {
+      "id": "setBindingRootForHostBindings",
+      "name": "setBindingRootForHostBindings",
+      "val": 344,
+      "entryPoint": false
+    },
+    {
+      "id": "setCurrentQueryIndex",
+      "name": "setCurrentQueryIndex",
+      "val": 94,
+      "entryPoint": false
+    },
+    {
+      "id": "getDeclarationTNode",
+      "name": "getDeclarationTNode",
+      "val": 148,
+      "entryPoint": false
+    },
+    {
+      "id": "enterView",
+      "name": "enterView",
+      "val": 370,
+      "entryPoint": false
+    },
+    {
+      "id": "allocLFrame",
+      "name": "allocLFrame",
+      "val": 222,
+      "entryPoint": false
+    },
+    {
+      "id": "createLFrame",
+      "name": "createLFrame",
+      "val": 454,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveViewLight",
+      "name": "leaveViewLight",
+      "val": 222,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveDI",
+      "name": "leaveDI",
+      "val": 31,
+      "entryPoint": false
+    },
+    {
+      "id": "leaveView",
+      "name": "leaveView",
+      "val": 432,
+      "entryPoint": false
+    },
+    {
+      "id": "setSelectedIndex",
+      "name": "setSelectedIndex",
+      "val": 86,
+      "entryPoint": false
+    },
+    {
+      "id": "executeCheckHooks",
+      "name": "executeCheckHooks",
+      "val": 97,
+      "entryPoint": false
+    },
+    {
+      "id": "executeInitAndCheckHooks",
+      "name": "executeInitAndCheckHooks",
+      "val": 155,
+      "entryPoint": false
+    },
+    {
+      "id": "incrementInitPhaseFlags",
+      "name": "incrementInitPhaseFlags",
+      "val": 163,
+      "entryPoint": false
+    },
+    {
+      "id": "callHooks",
+      "name": "callHooks",
+      "val": 730,
+      "entryPoint": false
+    },
+    {
+      "id": "callHook",
+      "name": "callHook",
+      "val": 364,
+      "entryPoint": false
+    },
+    {
+      "id": "NodeInjectorFactory",
+      "name": "NodeInjectorFactory",
+      "val": 255,
+      "entryPoint": false
+    },
+    {
+      "id": "includeViewProviders",
+      "name": "includeViewProviders",
+      "val": 30,
+      "entryPoint": false
+    },
+    {
+      "id": "setIncludeViewProviders",
+      "name": "setIncludeViewProviders",
+      "val": 128,
+      "entryPoint": false
+    },
+    {
+      "id": "nextNgElementId",
+      "name": "nextNgElementId",
+      "val": 24,
+      "entryPoint": false
+    },
+    {
+      "id": "insertBloom",
+      "name": "insertBloom",
+      "val": 82,
+      "entryPoint": false
+    },
+    {
+      "id": "attachPatchData",
+      "name": "attachPatchData",
+      "val": 74,
+      "entryPoint": false
+    },
+    {
+      "id": "defaultScheduler",
+      "name": "defaultScheduler",
+      "val": 147,
+      "entryPoint": false
+    },
+    {
+      "id": "getFirstLContainer",
+      "name": "getFirstLContainer",
+      "val": 81,
+      "entryPoint": false
+    },
+    {
+      "id": "getNextLContainer",
+      "name": "getNextLContainer",
+      "val": 87,
+      "entryPoint": false
+    },
+    {
+      "id": "getNearestLContainer",
+      "name": "getNearestLContainer",
+      "val": 258,
+      "entryPoint": false
+    },
+    {
+      "id": "nativeAppendOrInsertBefore",
+      "name": "nativeAppendOrInsertBefore",
+      "val": 598,
+      "entryPoint": false
+    },
+    {
+      "id": "NO_CHANGE",
+      "name": "NO_CHANGE",
+      "val": 21,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshContentQueries",
+      "name": "refreshContentQueries",
+      "val": 516,
+      "entryPoint": false
+    },
+    {
+      "id": "createLView",
+      "name": "createLView",
+      "val": 739,
+      "entryPoint": false
+    },
+    {
+      "id": "getOrCreateTNode",
+      "name": "getOrCreateTNode",
+      "val": 2413,
+      "entryPoint": false
+    },
+    {
+      "id": "allocExpando",
+      "name": "allocExpando",
+      "val": 296,
+      "entryPoint": false
+    },
+    {
+      "id": "renderView",
+      "name": "renderView",
+      "val": 905,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshView",
+      "name": "refreshView",
+      "val": 4222,
+      "entryPoint": false
+    },
+    {
+      "id": "executeTemplate",
+      "name": "executeTemplate",
+      "val": 876,
+      "entryPoint": false
+    },
+    {
+      "id": "createTView",
+      "name": "createTView",
+      "val": 1545,
+      "entryPoint": false
+    },
+    {
+      "id": "instantiateRootComponent",
+      "name": "instantiateRootComponent",
+      "val": 5163,
+      "entryPoint": false
+    },
+    {
+      "id": "registerHostBindingOpCodes",
+      "name": "registerHostBindingOpCodes",
+      "val": 745,
+      "entryPoint": false
+    },
+    {
+      "id": "refreshComponent",
+      "name": "refreshComponent",
+      "val": 1427,
+      "entryPoint": false
+    },
+    {
+      "id": "renderComponent",
+      "name": "renderComponent",
+      "val": 404,
+      "entryPoint": false
+    },
+    {
+      "id": "executeViewQueryFn",
+      "name": "executeViewQueryFn",
+      "val": 121,
+      "entryPoint": false
+    },
+    {
+      "id": "CLEAN_PROMISE",
+      "name": "CLEAN_PROMISE",
+      "val": 54,
+      "entryPoint": false
+    },
+    {
+      "id": "ɵɵtext",
+      "name": "ɵɵtext",
+      "val": 2029,
+      "entryPoint": false
+    },
+    {
+      "id": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "name": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "val": 15616,
+      "entryPoint": true
+    }
+  ],
+  "links": [
+    {
+      "source": "NG_COMP_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_COMP_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_DIR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_DIR_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PIPE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_PIPE_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_FACTORY_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_FACTORY_DEF",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_ELEMENT_ID",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "NG_ELEMENT_ID",
+      "target": "getClosureSafeProperty"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "concatStringsWithSpace"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "concatStringsWithSpace"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "InjectFlags"
+    },
+    {
+      "source": "setInjectImplementation",
+      "target": "_injectImplementation"
+    },
+    {
+      "source": "setInjectImplementation",
+      "target": "_injectImplementation"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "setInjectImplementation"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "ChangeDetectionStrategy"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "ViewEncapsulation"
+    },
+    {
+      "source": "_global",
+      "target": "__globalThis"
+    },
+    {
+      "source": "_global",
+      "target": "__window"
+    },
+    {
+      "source": "_global",
+      "target": "__self"
+    },
+    {
+      "source": "_global",
+      "target": "__global"
+    },
+    {
+      "source": "defaultScheduler",
+      "target": "_global"
+    },
+    {
+      "source": "invertObject",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "EMPTY_OBJ"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "EMPTY_ARRAY"
+    },
+    {
+      "source": "getComponentDef",
+      "target": "NG_COMP_DEF"
+    },
+    {
+      "source": "extractDirectiveDef",
+      "target": "NG_DIR_DEF"
+    },
+    {
+      "source": "extractPipeDef",
+      "target": "NG_PIPE_DEF"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "NG_FACTORY_DEF"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "NG_FACTORY_DEF"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "NG_ELEMENT_ID"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "_renderCompCount"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "extractDirectiveDef"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "extractPipeDef"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "invertObject"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "invertObject"
+    },
+    {
+      "source": "extractDirectiveDef",
+      "target": "getComponentDef"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "getComponentDef"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "RuntimeError"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "SimpleChange"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "rememberChangeHistoryAndInvokeOnChangesHook"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "ngOnChangesSetInput"
+    },
+    {
+      "source": "rememberChangeHistoryAndInvokeOnChangesHook",
+      "target": "getSimpleChangesStore"
+    },
+    {
+      "source": "ngOnChangesSetInput",
+      "target": "getSimpleChangesStore"
+    },
+    {
+      "source": "nativeAppendOrInsertBefore",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "nativeAppendOrInsertBefore",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "isProceduralRenderer"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "domRendererFactory3"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getNativeByTNode"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "renderComponent",
+      "target": "getComponentLViewByIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "viewAttachedToChangeDetector"
+    },
+    {
+      "source": "createLView",
+      "target": "resetPreOrderHookFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "resetPreOrderHookFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "updateTransplantedViewCount"
+    },
+    {
+      "source": "refreshView",
+      "target": "updateTransplantedViewCount"
+    },
+    {
+      "source": "getCurrentTNodePlaceholderOk",
+      "target": "instructionState"
+    },
+    {
+      "source": "setCurrentTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "isInCheckNoChangesMode",
+      "target": "instructionState"
+    },
+    {
+      "source": "setBindingRootForHostBindings",
+      "target": "instructionState"
+    },
+    {
+      "source": "setBindingRootForHostBindings",
+      "target": "instructionState"
+    },
+    {
+      "source": "setCurrentQueryIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "enterView",
+      "target": "instructionState"
+    },
+    {
+      "source": "allocLFrame",
+      "target": "instructionState"
+    },
+    {
+      "source": "leaveViewLight",
+      "target": "instructionState"
+    },
+    {
+      "source": "leaveViewLight",
+      "target": "instructionState"
+    },
+    {
+      "source": "setSelectedIndex",
+      "target": "instructionState"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "instructionState"
+    },
+    {
+      "source": "refreshView",
+      "target": "instructionState"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "instructionState"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "instructionState"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "instructionState"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "getCurrentTNode"
+    },
+    {
+      "source": "getCurrentTNode",
+      "target": "getCurrentTNodePlaceholderOk"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "getCurrentTNodePlaceholderOk"
+    },
+    {
+      "source": "getOrCreateTNode",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "setCurrentTNode"
+    },
+    {
+      "source": "refreshView",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "isInCheckNoChangesMode"
+    },
+    {
+      "source": "refreshView",
+      "target": "setBindingRootForHostBindings"
+    },
+    {
+      "source": "refreshContentQueries",
+      "target": "setCurrentQueryIndex"
+    },
+    {
+      "source": "executeViewQueryFn",
+      "target": "setCurrentQueryIndex"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "getDeclarationTNode"
+    },
+    {
+      "source": "renderView",
+      "target": "enterView"
+    },
+    {
+      "source": "refreshView",
+      "target": "enterView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "enterView"
+    },
+    {
+      "source": "enterView",
+      "target": "allocLFrame"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "allocLFrame"
+    },
+    {
+      "source": "instructionState",
+      "target": "createLFrame"
+    },
+    {
+      "source": "allocLFrame",
+      "target": "createLFrame"
+    },
+    {
+      "source": "leaveDI",
+      "target": "leaveViewLight"
+    },
+    {
+      "source": "leaveView",
+      "target": "leaveViewLight"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "leaveDI"
+    },
+    {
+      "source": "renderView",
+      "target": "leaveView"
+    },
+    {
+      "source": "refreshView",
+      "target": "leaveView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "leaveView"
+    },
+    {
+      "source": "refreshView",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "setSelectedIndex"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "executeCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "executeTemplate",
+      "target": "executeInitAndCheckHooks"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "refreshView",
+      "target": "incrementInitPhaseFlags"
+    },
+    {
+      "source": "executeCheckHooks",
+      "target": "callHooks"
+    },
+    {
+      "source": "executeInitAndCheckHooks",
+      "target": "callHooks"
+    },
+    {
+      "source": "callHooks",
+      "target": "callHook"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "NodeInjectorFactory"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "NodeInjectorFactory"
+    },
+    {
+      "source": "setIncludeViewProviders",
+      "target": "includeViewProviders"
+    },
+    {
+      "source": "setIncludeViewProviders",
+      "target": "includeViewProviders"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "setIncludeViewProviders"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "setIncludeViewProviders"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "nextNgElementId"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "insertBloom"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "insertBloom"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "insertBloom"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "attachPatchData"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "defaultScheduler"
+    },
+    {
+      "source": "refreshView",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getFirstLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "refreshView",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "getNextLContainer"
+    },
+    {
+      "source": "getFirstLContainer",
+      "target": "getNearestLContainer"
+    },
+    {
+      "source": "getNextLContainer",
+      "target": "getNearestLContainer"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "nativeAppendOrInsertBefore"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "nativeAppendOrInsertBefore"
+    },
+    {
+      "source": "createTView",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "NO_CHANGE"
+    },
+    {
+      "source": "renderView",
+      "target": "refreshContentQueries"
+    },
+    {
+      "source": "refreshView",
+      "target": "refreshContentQueries"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "createLView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "createLView"
+    },
+    {
+      "source": "ɵɵtext",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "getOrCreateTNode"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "allocExpando"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "allocExpando"
+    },
+    {
+      "source": "renderComponent",
+      "target": "renderView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "renderView"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "refreshView"
+    },
+    {
+      "source": "refreshComponent",
+      "target": "refreshView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "refreshView"
+    },
+    {
+      "source": "renderView",
+      "target": "executeTemplate"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeTemplate"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "createTView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "createTView"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "instantiateRootComponent"
+    },
+    {
+      "source": "instantiateRootComponent",
+      "target": "registerHostBindingOpCodes"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "registerHostBindingOpCodes"
+    },
+    {
+      "source": "refreshView",
+      "target": "refreshComponent"
+    },
+    {
+      "source": "renderView",
+      "target": "renderComponent"
+    },
+    {
+      "source": "renderView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "renderView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "refreshView",
+      "target": "executeViewQueryFn"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "CLEAN_PROMISE"
+    },
+    {
+      "source": "exp#: !(function (componentType, opts = {}) {\n  const re",
+      "target": "ɵɵtext"
+    }
+  ]
+}
