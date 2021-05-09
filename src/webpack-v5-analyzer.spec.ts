@@ -20,6 +20,7 @@ describe('webpack 5 analyzer', () => {
           name: '1116#c',
           type: 'var',
           selfSize: 37,
+          retainers: ['5366#vn', '4720#i'],
         },
         {
           name: '5366#bn',
@@ -34,7 +35,12 @@ describe('webpack 5 analyzer', () => {
         {
           name: '4720#i',
           type: 'var',
-          selfSize: 151,
+          selfSize: 161,
+        },
+        {
+          name: '4720#a',
+          type: 'var',
+          selfSize: 51,
         },
       ],
       expressionStatements: [{ name: '#ROOT#' }, { name: '#DEAD#' }],
