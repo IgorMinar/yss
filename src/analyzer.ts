@@ -15,6 +15,7 @@ import {
 import ts from 'typescript';
 import { assertIsDefined } from './utils';
 import { SourceMapper, SourceMapInfo } from './source-mapper';
+import { analyzeWebpack5Chunk } from './webpack-v5-analyzer';
 
 export function analyze(
   fileName: string,
@@ -28,6 +29,8 @@ export function analyze(
       allowJs: true,
       outDir: 'dist/',
       skipLibCheck: true,
+      //TODO: do we need this? Tests suggest that console.log() in a webpack5 module requires lib.dom.d.ts
+      //lib: ['esnext', 'dom'],
     },
     useInMemoryFileSystem: true,
   });
@@ -44,8 +47,20 @@ export function analyze(
     }
   }
 
+  analyzeWebpack5Chunk(fileAnalysis, sourceFile, sourceMapper) ||
+    analyzeESModule(fileAnalysis, sourceFile, sourceMapper, ignoreExports);
+
+  return fileAnalysis;
+}
+
+function analyzeESModule(
+  fileAnalysis: FileAnalysis,
+  sourceFile: SourceFile,
+  sourceMapper: SourceMapper | null,
+  ignoreExports: boolean,
+) {
   const topLevelStatements = sourceFile.getStatements();
-  const statementBlockAnalysis = analyzeStatementBlock(
+  const [statementBlockAnalysis] = analyzeStatementBlock(
     topLevelStatements,
     sourceFile,
     sourceMapper,
@@ -56,6 +71,7 @@ export function analyze(
   fileAnalysis.expressionStatements = fileAnalysis.expressionStatements.concat(
     statementBlockAnalysis.expressionStatements,
   );
+
   return fileAnalysis;
 }
 
@@ -225,6 +241,8 @@ export function analyzeStatementBlock(
                 ? fnIdentifier.getText()
                 : `#anonymousFn${annoymousFnSuffix++}#`;
               const fnCallAnalysis = new ExpressionStatementAnalysis(
+                // TODO: cuts off the method name: console.log('..') becomes console()
+                // TODO: this naming convention (as well as for miscExps) could lead to collisions, use .getStart() in the name to disambiguate
                 `${fnName}()`,
                 'fn call',
                 sourceFile.getLineAndColumnAtPos(callExpression.getStart()),
@@ -375,7 +393,7 @@ export function analyzeStatementBlock(
     declarationAnalysis.retainers = retainerNames;
   });
 
-  return statementBlockAnalysis;
+  return [statementBlockAnalysis, analysisMap] as [StatementBlockAnalysis, typeof analysisMap];
 }
 
 export class FileAnalysis {

@@ -1,12 +1,7 @@
 #!/usr/bin/env node --experimental-specifier-resolution=node -r source-map-support/register
 import yargs from 'yargs';
 import fs from 'fs';
-import {
-  analyze,
-  DeclarationAnalysis,
-  ExpressionStatementAnalysis,
-  FileAnalysis,
-} from './analyzer';
+import { analyze, DeclarationAnalysis, ExpressionStatementAnalysis } from './analyzer';
 import { computeDominators } from './dominance';
 import { sourceMapperFactory } from './source-mapper';
 import { ForInStatement } from 'ts-morph';
@@ -34,7 +29,7 @@ const argv = yargs(process.argv.slice(2))
         sourceMapContents = fs.readFileSync(sourceMapPath, 'utf-8');
         sourceMapper = await sourceMapperFactory(sourceMapContents);
       }
-      const analysis = analyze(filePath, fileContents, false, sourceMapper);
+      const analysis = analyze(filePath, fileContents, false, true, sourceMapper);
       const idomMap = computeDominators(analysis);
 
       const analysisMap = new Map<string, DeclarationAnalysis | ExpressionStatementAnalysis>();

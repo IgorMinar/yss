@@ -18,8 +18,17 @@
         K0: function () {
           return c;
         },
+        OlP: function () {
+          return i;
+        },
       });
-      const c = new s.OlP('DocumentToken');
+      class i {
+        constructor(a, b) {
+          this.a = a;
+          this.b = b;
+        }
+      }
+      const c = new i('DocumentToken');
     },
     5366: function (
       /**__unused_webpack_module*/ t,
@@ -33,22 +42,24 @@
         },
       });
       var s = n(1116);
-      function bn(t, e = A.Default) {
-        return (F || yn)(p(t), e);
+      function bn(t, e = '.foo') {
+        return t.a + e;
       }
-      const vn = bn(s.K0);
+      function vn(x) {
+        return bn(x) + '.bar';
+      }
     },
     4720: function (t, e, n) {
       'use strict';
       n.d(e, {
-        vT: () => a, // both arrow function & function can occur depending on minifier
+        vT: () => a, // both arrow function & function expression can occur depending on the minifier used
         Is: function () {
           return i;
         },
       });
       var s = n(5366),
         r = n(1116);
-      const i = new s.OlP('cdk-dir-doc', {
+      const i = new r.OlP('cdk-dir-doc', {
           providedIn: 'root',
           factory: function () {
             return (0, s.f3M)(r.K0);
@@ -57,10 +68,13 @@
         a = function (b) {
           !b;
         };
+      console.log(i, a(i));
     },
   },
+  // this is the bootrap code
+  // it says evaluate module with id 4720 when this chunk is loaded and registered
   (t) => {
     'use strict';
-    t((t.s = 126));
+    t((t.s = 4720));
   },
 ]);

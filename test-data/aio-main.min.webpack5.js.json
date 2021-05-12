@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "name": "#ROOT#",
+      "type": "script root",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#ROOT#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "dominanceInfo": {
+        "retainedSize": 451239,
+        "iRetainedSize": 451239
+      },
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    },
+    {
+      "name": "#DEAD#",
+      "type": "dead code",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#DEAD#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "dominanceInfo": {
+        "retainedSize": 0,
+        "iRetainedSize": 0,
+        "dominator": "#ROOT#"
+      },
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    },
+    {
+      "name": "self()",
+      "type": "fn call",
+      "position": {
+        "line": 1,
+        "column": 1
+      },
+      "selfSize": 451239,
+      "sourceMapInfo": {
+        "source": "null:null:null",
+        "name": null,
+        "namePosition": {
+          "source": {
+            "line": null,
+            "column": null
+          },
+          "transpiled": {
+            "line": 1,
+            "column": 1
+          }
+        },
+        "package": null
+      },
+      "dominanceInfo": {
+        "retainedSize": 451239,
+        "iRetainedSize": 451239,
+        "dominator": "#ROOT#"
+      },
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    }
+  ],
+  "links": [
+    {
+      "source": "#ROOT#",
+      "target": "#ROOT#"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "#DEAD#"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "self()"
+    }
+  ],
+  "idomLinks": [
+    {
+      "source": "#ROOT#",
+      "target": "#DEAD#",
+      "retainedSize": 0,
+      "color": "grey"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "self()",
+      "retainedSize": 451239,
+      "color": "grey"
+    }
+  ]
+}
