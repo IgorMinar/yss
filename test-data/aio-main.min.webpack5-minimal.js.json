@@ -1,0 +1,333 @@
+{
+  "fileName": "test-data/aio-main.min.webpack5-minimal.js",
+  "rootNode": {
+    "name": "#ROOT#",
+    "type": "script root",
+    "position": {
+      "line": 0,
+      "column": 0
+    },
+    "selfSize": 0,
+    "sourceMapInfo": {
+      "name": "#ROOT#",
+      "source": null,
+      "namePosition": {
+        "source": {
+          "line": 0,
+          "column": 0
+        },
+        "transpiled": {
+          "line": 0,
+          "column": 0
+        }
+      },
+      "package": null
+    },
+    "retainers": [
+      "#ROOT#"
+    ]
+  },
+  "deadCodeNode": {
+    "name": "#DEAD#",
+    "type": "dead code",
+    "position": {
+      "line": 0,
+      "column": 0
+    },
+    "selfSize": 0,
+    "sourceMapInfo": {
+      "name": "#DEAD#",
+      "source": null,
+      "namePosition": {
+        "source": {
+          "line": 0,
+          "column": 0
+        },
+        "transpiled": {
+          "line": 0,
+          "column": 0
+        }
+      },
+      "package": null
+    },
+    "retainers": [
+      "#ROOT#"
+    ]
+  },
+  "declarations": [
+    {
+      "name": "810#i",
+      "type": "class",
+      "position": {
+        "line": 25,
+        "column": 7
+      },
+      "selfSize": 190,
+      "retainers": [
+        "810#c"
+      ]
+    },
+    {
+      "name": "810#o",
+      "type": "class",
+      "position": {
+        "line": 33,
+        "column": 7
+      },
+      "selfSize": 935,
+      "retainers": [
+        "810#i"
+      ]
+    },
+    {
+      "name": "810#c",
+      "type": "function",
+      "position": {
+        "line": 62,
+        "column": 7
+      },
+      "selfSize": 211,
+      "retainers": [
+        "1262#p",
+        "1262#p"
+      ]
+    },
+    {
+      "name": "1262#p",
+      "type": "var",
+      "position": {
+        "line": 81,
+        "column": 11
+      },
+      "selfSize": 375,
+      "retainers": [
+        "1262#exp#: new p();"
+      ]
+    }
+  ],
+  "expressionStatements": [
+    {
+      "name": "#ROOT#",
+      "type": "script root",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#ROOT#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "retainers": [
+        "#ROOT#"
+      ]
+    },
+    {
+      "name": "#DEAD#",
+      "type": "dead code",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#DEAD#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "retainers": [
+        "#ROOT#"
+      ]
+    },
+    {
+      "name": "1262#exp#: new p();",
+      "type": "misc expression",
+      "position": {
+        "line": 92,
+        "column": 7
+      },
+      "selfSize": 15,
+      "retainers": [
+        "#ROOT#"
+      ]
+    }
+  ]
+}
+{
+  "nodes": [
+    {
+      "name": "810#i",
+      "type": "class",
+      "position": {
+        "line": 25,
+        "column": 7
+      },
+      "selfSize": 190,
+      "retainers": [
+        "810#c"
+      ]
+    },
+    {
+      "name": "810#o",
+      "type": "class",
+      "position": {
+        "line": 33,
+        "column": 7
+      },
+      "selfSize": 935,
+      "retainers": [
+        "810#i"
+      ]
+    },
+    {
+      "name": "810#c",
+      "type": "function",
+      "position": {
+        "line": 62,
+        "column": 7
+      },
+      "selfSize": 211,
+      "retainers": [
+        "1262#p",
+        "1262#p"
+      ]
+    },
+    {
+      "name": "1262#p",
+      "type": "var",
+      "position": {
+        "line": 81,
+        "column": 11
+      },
+      "selfSize": 375,
+      "retainers": [
+        "1262#exp#: new p();"
+      ]
+    },
+    {
+      "name": "#ROOT#",
+      "type": "script root",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#ROOT#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    },
+    {
+      "name": "#DEAD#",
+      "type": "dead code",
+      "position": {
+        "line": 0,
+        "column": 0
+      },
+      "selfSize": 0,
+      "sourceMapInfo": {
+        "name": "#DEAD#",
+        "source": null,
+        "namePosition": {
+          "source": {
+            "line": 0,
+            "column": 0
+          },
+          "transpiled": {
+            "line": 0,
+            "column": 0
+          }
+        },
+        "package": null
+      },
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    },
+    {
+      "name": "1262#exp#: new p();",
+      "type": "misc expression",
+      "position": {
+        "line": 92,
+        "column": 7
+      },
+      "selfSize": 15,
+      "retainers": [
+        "#ROOT#"
+      ],
+      "entryPoint": true
+    }
+  ],
+  "links": [
+    {
+      "source": "810#c",
+      "target": "810#i"
+    },
+    {
+      "source": "810#i",
+      "target": "810#o"
+    },
+    {
+      "source": "1262#p",
+      "target": "810#c"
+    },
+    {
+      "source": "1262#p",
+      "target": "810#c"
+    },
+    {
+      "source": "1262#exp#: new p();",
+      "target": "1262#p"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "#ROOT#"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "#DEAD#"
+    },
+    {
+      "source": "#ROOT#",
+      "target": "1262#exp#: new p();"
+    }
+  ],
+  "idomLinks": []
+}

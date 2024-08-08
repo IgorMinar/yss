@@ -2,9 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "../dist/",
-    "composite": true,
-    "declarationMap": true,
+    "outDir": "./dist/",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
@@ -20,11 +18,8 @@
     "lib": [
       "es2020"
     ],
-    "types": [
-      "node",
-      "jest"
-    ]
+    "types": []
   },
-  "include": ["*.ts"],
-  "exclude": ["*.spec.ts"]
+  "references": [{"path": "./tsconfig.src.json"}, {"path": "./tsconfig.spec.json"}],
+  "include": []
 }

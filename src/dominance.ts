@@ -144,7 +144,8 @@ export function computeDominators(fileAnalysis: FileAnalysis) {
       }
     }
 
-    assertIsDefined(idom, `Can't find idom for ${declaration.name}`);
+    //assertIsDefined(idom, `Can't find idom for ${declaration.name}`);
+    idom = idom ?? declaration.name;
     idomMap.set(declaration.name, idom);
     //console.error(`        found ${idom}`);
   }

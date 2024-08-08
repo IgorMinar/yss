@@ -11,6 +11,7 @@ import {
   ExpressionStatement,
   Identifier,
   Statement,
+  VariableDeclaration,
 } from 'ts-morph';
 import ts from 'typescript';
 import { assertIsDefined } from './utils';
@@ -19,7 +20,7 @@ import {
   analyzeStatementBlock,
   ExpressionStatementAnalysis,
   DeclarationAnalysis,
-} from './analyzer';
+} from './analyzer-shared';
 import { SourceMapper } from './source-mapper';
 
 export function analyzeWebpack5Chunk(
@@ -105,6 +106,7 @@ export function analyzeWebpack5Chunk(
     });
 
     // In the first pass over the module map, we extract all the exports and create a complete exports map
+    console.warn('--> extract all webpack exports');
     webpackModuleMap.forEach((moduleInitializer, moduleId) => {
       const [
         webpackModuleParam,
@@ -164,19 +166,22 @@ export function analyzeWebpack5Chunk(
       });
     });
 
-    //console.log(webpackExportMap);
+    console.warn(webpackExportMap);
 
     // In the second pass over the module map we extract everything else, and cross reference all the
     // code against the exports map
+    console.warn('--> extract & analyze all non-webpack statements');
+    const webpackModuleCount = webpackModuleMap.size;
+    let webpackModulesProcessed = 0;
     webpackModuleMap.forEach((moduleInitializer, moduleId) => {
+      console.warn(
+        `processing module id ${moduleId} (${++webpackModulesProcessed}/${webpackModuleCount})`,
+      );
       const [
         webpackModuleParam,
         webpackExportsParam,
         webpackRequireParam,
       ] = moduleInitializer.getParameters();
-
-      // integrity check counter to ensure that we collect and remap all of webpack requires
-      let webpackRequireParamUsageCount = 0;
 
       if (!webpackModuleParam && !webpackExportsParam && !webpackRequireParam)
         throw new Error('no module initializer params?');
@@ -186,7 +191,13 @@ export function analyzeWebpack5Chunk(
         return;
       }
 
+      // integrity check counter to ensure that we collect and remap all of webpack requires
+      const totalWebpackRequireParamUsageCount = webpackRequireParam.findReferencesAsNodes().length;
+      let processedWebpackRequireParamUsageCount = 0;
+
       const nonWebpackStatements = [] as Statement<ts.Statement>[];
+      const nestedWebpackNodes = new Set<VariableDeclaration>();
+
       moduleInitializer.getStatements().forEach((statement) => {
         // is this a "use strict"; or 'use strict'; preamble?
         const maybeUseStrict = statement
@@ -217,7 +228,7 @@ export function analyzeWebpack5Chunk(
             .getFirstChildIfKind(ts.SyntaxKind.CallExpression)
             ?.getArguments()[1]) instanceof ObjectLiteralExpression
         ) {
-          webpackRequireParamUsageCount++;
+          processedWebpackRequireParamUsageCount++;
 
           // we've extracted everything in the first pass, so return and go to the next statement
           return;
@@ -234,30 +245,94 @@ export function analyzeWebpack5Chunk(
             ?.getExpressionIfKind(ts.SyntaxKind.Identifier)
             ?.getDefinitionNodes()[0] === webpackRequireParam
         ) {
+          let numberOfVarDeclarations = statement.getDeclarationList().getDeclarations().length;
           statement
             .getDeclarationList()
             .getDeclarations()
             .forEach((varDeclaration) => {
               if (
-                !(
-                  varDeclaration
-                    ?.getInitializerIfKind(ts.SyntaxKind.CallExpression)
-                    ?.getExpressionIfKind(ts.SyntaxKind.Identifier)
-                    ?.getDefinitionNodes()[0] === webpackRequireParam
-                )
+                varDeclaration
+                  ?.getInitializerIfKind(ts.SyntaxKind.CallExpression)
+                  ?.getExpressionIfKind(ts.SyntaxKind.Identifier)
+                  ?.getDefinitionNodes()[0] === webpackRequireParam
               ) {
-                // this is not a webpack require variable declaration within webpack require VariableStatement
-                throw new Error(
-                  'found VariableStatement that contains mixture of webpack requrire and non-webpack variable declarations',
-                );
+                processedWebpackRequireParamUsageCount++;
+                numberOfVarDeclarations--;
+                nestedWebpackNodes.add(varDeclaration);
+              } else {
+                let foundSideEffectyImport: boolean | null = null;
+                varDeclaration
+                  ?.getInitializerIfKind(ts.SyntaxKind.ParenthesizedExpression)
+                  ?.getDescendantsOfKind(ts.SyntaxKind.CallExpression)
+                  .forEach((callExpression) => {
+                    if (
+                      callExpression
+                        .getExpressionIfKind(ts.SyntaxKind.Identifier)
+                        ?.getDefinitionNodes()[0] === webpackRequireParam
+                    ) {
+                      if (foundSideEffectyImport == false) {
+                        throw new Error(
+                          "Found mixing of non-webpack expressions and webpack's sideefecty import expression",
+                        );
+                      }
+                      foundSideEffectyImport = true;
+                      processedWebpackRequireParamUsageCount++;
+                    } else {
+                      if (foundSideEffectyImport == true) {
+                        throw new Error(
+                          "Found mixing of non-webpack expressions and webpack's sideefecty import expression",
+                        );
+                      }
+                      foundSideEffectyImport = false;
+                    }
+                  });
+                if (foundSideEffectyImport) {
+                  numberOfVarDeclarations--;
+                  nestedWebpackNodes.add(varDeclaration);
+                }
               }
 
-              webpackRequireParamUsageCount++;
               // that's it, we don't process the import just yet, we'll loop over the moduleMap 3rd time, to process imports
               // that's when we cross reference imports against exports, find retaining declarations, and update retainers
             });
 
-          return;
+          if (numberOfVarDeclarations === 0) {
+            // if the DeclarationList doesn't contain any remaining varDeclarations, then we can return
+            // otherwise we need to run the remaining varDeclarations through the block analysis
+            return;
+          }
+        }
+
+        // is this a side-effecty webpack require? e.g. `n(8277),n(1098);`
+        if (statement instanceof ExpressionStatement) {
+          const callExpressions = statement.getDescendantsOfKind(ts.SyntaxKind.CallExpression);
+          let foundSideEffectyImport: boolean | null = null;
+          callExpressions.forEach((callExpression) => {
+            if (
+              callExpression
+                .getExpressionIfKind(ts.SyntaxKind.Identifier)
+                ?.getDefinitionNodes()[0] === webpackRequireParam
+            ) {
+              if (foundSideEffectyImport === false) {
+                throw new Error(
+                  "Found mixing of non-webpack expressions and webpack's sideefecty import expression",
+                );
+              }
+              processedWebpackRequireParamUsageCount++;
+              foundSideEffectyImport = true;
+            } else {
+              if (foundSideEffectyImport === true) {
+                throw new Error(
+                  "Found mixing of non-webpack expressions and webpack's sideefecty import expression",
+                );
+              }
+              foundSideEffectyImport = false;
+            }
+          });
+
+          if (foundSideEffectyImport) {
+            return;
+          }
         }
 
         // the current statement is not part of the webpack overhead, stash it in nonWebpackStatements
@@ -265,17 +340,18 @@ export function analyzeWebpack5Chunk(
         nonWebpackStatements.push(statement);
       });
 
-      if (webpackRequireParam.findReferencesAsNodes().length !== webpackRequireParamUsageCount) {
+      if (false && totalWebpackRequireParamUsageCount !== processedWebpackRequireParamUsageCount) {
         throw new Error(
           'Some webpackRequire usages have not been accounted for ' +
             ' ' +
-            webpackRequireParam.findReferencesAsNodes().length +
+            totalWebpackRequireParamUsageCount +
             ' ' +
             webpackRequireParam.findReferencesAsNodes()[0].getFullText() +
             ' ' +
             webpackRequireParam.findReferencesAsNodes()[0].getStart() +
             ' ' +
-            webpackRequireParamUsageCount +
+            processedWebpackRequireParamUsageCount +
+            ' ' +
             nonWebpackStatements[0].getFullText(),
         );
       }
@@ -288,6 +364,7 @@ export function analyzeWebpack5Chunk(
         fileAnalysis.deadCodeNode.name,
         true,
         true,
+        nestedWebpackNodes,
       );
 
       statementBlockAnalysisMap.forEach((analysis, node) => {
@@ -297,7 +374,8 @@ export function analyzeWebpack5Chunk(
       });
     });
 
-    // In the third pass over the module map, we extract all the exports and create a complete exports map
+    // In the third pass over the module map, we extract all the imports and update all retainers
+    console.warn('--> extract all webpack imports and update retainers');
     webpackModuleMap.forEach((moduleInitializer, moduleId) => {
       const [
         webpackModuleParam,
@@ -325,6 +403,14 @@ export function analyzeWebpack5Chunk(
             return null;
           }
 
+          const importedModuleVarDeclaration = webpackRequireCallExpression.getParentIfKind(
+            ts.SyntaxKind.VariableDeclaration,
+          );
+          if (!importedModuleVarDeclaration) {
+            // this is most likely dynamic import, skip it
+            return null;
+          }
+
           const importedModuleIdNode = webpackRequireCallExpression.getArguments()[0];
 
           if (!(importedModuleIdNode instanceof NumericLiteral)) {
@@ -334,12 +420,10 @@ export function analyzeWebpack5Chunk(
           }
 
           const importedModuleId = importedModuleIdNode.getLiteralValue();
-          const importedModuleVarDeclaration = webpackRequireCallExpression.getParentIfKindOrThrow(
-            ts.SyntaxKind.VariableDeclaration,
-          );
           const importedModuleVarIdentifier = importedModuleVarDeclaration.getFirstChildByKindOrThrow(
             ts.SyntaxKind.Identifier,
           );
+
           return [importedModuleVarIdentifier, importedModuleId] as [Identifier, number];
         })
         .filter((moduleImport) => moduleImport !== null) as [Identifier, number][];
@@ -374,9 +458,12 @@ export function analyzeWebpack5Chunk(
       });
     });
 
+    let payloadSizeSansWebpack = 0;
+
     nameToAnalysisMap.forEach((analysis) => {
-      // dedupe all local {moduleId}##DEAD references
-      analysis.retainers = analysis.retainers.filter((retainer) => !retainer.match(/\w+##DEAD#$/));
+      payloadSizeSansWebpack += analysis.selfSize;
+
+      // now that we stitched together all of the cross-module references, we can check if a declaration is dead
       if (analysis.retainers.length === 0) {
         analysis.retainers.push(fileAnalysis.deadCodeNode.name);
       }
@@ -388,12 +475,27 @@ export function analyzeWebpack5Chunk(
       }
     });
 
-    // TODO:
-    //  1. go over all declarations extracted from the entire chunk and update retainers as follows
-    //    a. if retainers.length > 2, remove the {moduleId}##DEAD# retainer
-    //    a. otherwise replace {moduleId}##DEAD# retainer with global #DEAD# retainer
+    fileAnalysis.expressionStatements.push(
+      new ExpressionStatementAnalysis(
+        '#WebPackOverhead#',
+        'misc expression',
+        { line: 0, column: 0 },
+        sourceFile.getFullWidth() - payloadSizeSansWebpack,
+        {
+          name: '#WebPackOverhead#',
+          source: null,
+          namePosition: {
+            source: { line: 0, column: 0 },
+            transpiled: { line: 0, column: 0 },
+          },
+          package: null,
+        },
+        undefined,
+        [fileAnalysis.rootNode.name],
+      ),
+    );
   } catch (e) {
-    console.error(e);
+    console.error('Webpack 5 analysis failed with:', e);
     return null;
   }
 
@@ -414,6 +516,9 @@ function localizeAnalysis<T extends DeclarationAnalysis | ExpressionStatementAna
 ): T {
   // TODO: OMG mutating the returned value, refactor?
   analysis.name = `${moduleId}#${analysis.name}`;
-  analysis.retainers = analysis.retainers.map((retainer) => `${moduleId}#${retainer}`);
+  analysis.retainers = analysis.retainers
+    // filter out all "#DEAD#" references, we'll readd them if necessary once all cross-module references are accounted for
+    .filter((retainer) => retainer !== '#DEAD#')
+    .map((retainer) => (retainer === '#ROOT#' ? retainer : `${moduleId}#${retainer}`));
   return analysis;
 }

@@ -4,7 +4,6 @@ import fs from 'fs';
 import { analyze, DeclarationAnalysis, ExpressionStatementAnalysis } from './analyzer';
 import { computeDominators } from './dominance';
 import { sourceMapperFactory } from './source-mapper';
-import { ForInStatement } from 'ts-morph';
 
 const argv = yargs(process.argv.slice(2))
   .command({

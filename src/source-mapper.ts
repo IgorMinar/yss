@@ -1,7 +1,15 @@
 import { SourceMapConsumer } from 'source-map';
 
 export async function sourceMapperFactory(sourceMap: string) {
+  // @ts-ignore
+  if (typeof window !== undefined) {
+    // @ts-ignore
+    SourceMapConsumer.initialize({
+      'lib/mappings.wasm': 'https://unpkg.com/source-map@0.7.3/lib/mappings.wasm',
+    });
+  }
   const consumer = await new SourceMapConsumer(sourceMap);
+
   return new MozillaSourceMapper(consumer);
 }
 
@@ -110,11 +118,23 @@ export const fakeSourceMapInfo = {
 function getPackageName(sourcePath: string | null) {
   if (sourcePath === null) return null;
 
+  // strip url prefix, e.g. webpack:// or webpack:///
+  sourcePath = sourcePath.replace(/\w+:\/\/\/?/, '');
+
   if (sourcePath[0] === '.') return '.';
 
-  // @angular/foo/src/bar/baz => @angular/foo
-  if (sourcePath[0] === '@') return sourcePath.replace(/^(@[^/]+\/[^/]+)\/.*/, '$1');
+  if (sourcePath.startsWith('node_modules/')) {
+    sourcePath = sourcePath.replace(/node_modules\//, '');
 
-  // rxjs/foo/src/bar/baz => rxjs
-  return sourcePath.replace(/^([^/]+)\/.*/, '$1');
+    if (sourcePath[0] === '@') {
+      // @angular/foo/src/bar/baz => @angular/foo
+      return sourcePath.replace(/^(@[^/]+\/[^/]+)\/.*/, '$1');
+    }
+
+    // rxjs/foo/src/bar/baz => rxjs
+    return sourcePath.replace(/^([^/]+)\/.*/, '$1');
+  }
+
+  // otherwise we assume that this is part of the app
+  return '.';
 }

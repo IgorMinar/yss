@@ -59,6 +59,9 @@
       });
       var s = n(5366),
         r = n(1116);
+      //TODO: mixture of regular and siddefecty imports: d=(n(6238),n(4689),n(3169))
+      //TODO: sideefecty imports: n(6238),n(4689);
+      //TODO: dynamic import support: n(8255)(e).then(t=>t[s])
       const i = new r.OlP('cdk-dir-doc', {
           providedIn: 'root',
           factory: function () {
